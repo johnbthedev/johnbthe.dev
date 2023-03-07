@@ -7,13 +7,11 @@
     <title>johnbthe.dev | Junior Web Developer Portfolio</title>
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-
     <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
@@ -22,9 +20,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <!-- Custom Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -45,9 +52,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
@@ -65,9 +69,13 @@
     </nav>
 
     <!-- Header -->
-    <header class="jumbotron jumbotron-fluid">
+    <header
+      class="jumbotron jumbotron-fluid"
+      data-aos="fade-down"
+      data-aos-duration="3000"
+    >
       <div class="container">
-        <h1 class="display-4">
+        <h1 class="display-5">
           <p style="margin-bottom: 5px">
             John Bouakhasith, <span class="typed-text"></span
             ><span class="cursor">&nbsp;</span>
@@ -81,10 +89,10 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="py-5 text-justify">
+    <section id="about" class="pb-4 text-justify">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
             <h2>About Me</h2>
             <p>
               👋 Hello there! My name is John Bouakhasith and I am a junior web
@@ -112,7 +120,7 @@
               reach out if you have any questions or inquiries!
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
             <img
               src="images/avatar.png"
               alt="Profile Picture"
@@ -125,7 +133,12 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
+    <section
+      id="services"
+      class="py-5 bg-light"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-12 pb-2">
@@ -174,12 +187,16 @@
     <section id="portfolio" class="py-5 text-justify">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-right" data-aos-duration="3000">
             <h2>My Portfolio</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-4">
+          <div
+            class="col-md-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="card">
               <img
                 src="images/project.png"
@@ -193,7 +210,7 @@
                   allowing users to create, track, and customize their reading
                   lists. I leveraged the Web Storage API to store the reading
                   list object locally as a string, enabling the app to remember
-                  the user's choices when they return to the site. .
+                  the user's choices when they return to the site.
                 </p>
                 <a
                   href="https://johnbdot.github.io/library/"
@@ -204,7 +221,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div
+            class="col-md-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="card">
               <img
                 src="images/project.png"
@@ -229,7 +250,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div
+            class="col-md-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="card">
               <img
                 src="images/project.png"
@@ -256,7 +281,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-4">
+          <div
+            class="col-md-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="card">
               <img
                 src="images/project.png"
@@ -282,7 +311,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div
+            class="col-md-4 mb-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="card">
               <img
                 src="images/project.png"
@@ -307,12 +340,12 @@
     <section id="contact" class="pb-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-up" data-aos-duration="3000">
             <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
             <form>
               <div class="form-group">
                 <label for="name">Name</label>
@@ -331,21 +364,40 @@
                   required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-dark">Submit</button>
+              <button type="submit" class="btn btn-dark" disabled>
+                Submit
+              </button>
             </form>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Contact Information</h5>
                 <p class="card-text">
-                  Feel free to contact me via the form on the left and follow me
-                  on any of the following social media platforms:
+                  <s>Feel free to contact me via the form on the left</s> and
+                  follow me on any of the following social media platforms:
                 </p>
                 <ul class="list-unstyled">
-                  <li><i class="fa-brands fa-github"></i> GitHub</li>
-                  <li><i class="fa-brands fa-linkedin"></i> LinkedIn</li>
-                  <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                  <li>
+                    <a href="mailto:hi@johnbthe.dev"
+                      ><i class="fa-solid fa-envelope"></i> Email</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/johnbdot"
+                      ><i class="fa-brands fa-github"></i> GitHub</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/johnbdot/"
+                      ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/johnbdot/"
+                      ><i class="fa-brands fa-instagram"></i> Instagram</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
@@ -372,6 +424,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/app.js"></script>
   </body>
 </html>

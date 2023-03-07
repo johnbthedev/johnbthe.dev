@@ -1,3 +1,8 @@
+/* Custom Font */
+body {
+  font-family: "Fira Mono", monospace;
+}
+
 /* Card Shadow Drop */
 .card-body {
   box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
@@ -40,4 +45,23 @@
 .project {
   width: 200px;
   height: auto;
+}
+
+/* Remove default hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 999;
 }
