@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Junior Web Developer Portfolio</title>
+    <title>johnbthe.dev | Junior Web Developer Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 
     <!-- Latest compiled and minified CSS -->
     <link
@@ -15,16 +17,21 @@
     <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">johnbthe.dev</a>
+      <a class="navbar-brand" href="#"
+        ><i class="fa-solid fa-terminal"></i> johnbthe.dev</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -60,7 +67,12 @@
     <!-- Header -->
     <header class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Junior Web Developer</h1>
+        <h1 class="display-4">
+          <p style="margin-bottom: 5px">
+            John Bouakhasith, <span class="typed-text"></span
+            ><span class="cursor">&nbsp;</span>
+          </p>
+        </h1>
         <p class="lead">
           Welcome to my portfolio. Here you can find information about my skills
           and projects.
@@ -113,10 +125,10 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-5 bg-light text-justify">
+    <section id="services" class="py-5 bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 pb-2">
             <h2>My Services</h2>
           </div>
         </div>
@@ -167,57 +179,123 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="card">
               <img
-                src="https://via.placeholder.com/400x300"
+                src="images/project.png"
                 class="card-img-top"
                 alt="Project 1"
               />
               <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
+                <h5 class="card-title">myLibrary</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  fermentum, leo non aliquet pulvinar, felis nulla commodo
-                  sapien, et commodo turpis odio euismod eros.
+                  A personalized reading list application using JavaScript,
+                  allowing users to create, track, and customize their reading
+                  lists. I leveraged the Web Storage API to store the reading
+                  list object locally as a string, enabling the app to remember
+                  the user's choices when they return to the site. .
                 </p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a
+                  href="https://johnbdot.github.io/library/"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >View Project</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="card">
               <img
-                src="https://via.placeholder.com/400x300"
+                src="images/project.png"
                 class="card-img-top"
                 alt="Project 2"
               />
               <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
+                <h5 class="card-title">Etch-A-Sketch</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  fermentum, leo non aliquet pulvinar, felis nulla commodo
-                  sapien, et commodo turpis odio euismod eros.
+                  An intuitive sketch pad application using HTML5, CSS3, and
+                  JavaScript to showcase my ability to manipulate the Document
+                  Object Model (DOM) effectively. The application allows users
+                  to select a pixel size and color to draw with, as well as
+                  clear the area with an eraser tool.
                 </p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a
+                  href="https://johnbdot.github.io/etch-a-sketch/"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >View Project</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="card">
               <img
-                src="https://via.placeholder.com/400x300"
+                src="images/project.png"
                 class="card-img-top"
                 alt="Project 3"
               />
               <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
+                <h5 class="card-title">Rock, Paper, Scissors</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  fermentum, leo non aliquet pulvinar, felis nulla commodo
-                  sapien, et commodo turpis odio euismod eros.
+                  An interactive game using HTML5, CSS3, and JavaScript, which
+                  challenges two users to compete and determine the best out of
+                  7 wins. I implemented JavaScript to handle user input and
+                  determine the winner of each round based on the game's rules
+                  using logical constructs like if-else statements.
                 </p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a
+                  href="https://johnbdot.github.io/rock-paper-scissors/"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/project.png"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <p class="card-text">
+                  I developed a basic calculator application using HTML, CSS,
+                  and JavaScript. The calculator features a display area for
+                  input and output, as well as a set of buttons for arithmetic
+                  operations and numbers. Through this project, I honed my
+                  skills in HTML for layout, CSS for styling, and JavaScript for
+                  handling user interactions and performing calculations.
+                </p>
+                <a
+                  href="https://johnbdot.github.io/calculator/"
+                  target="_blank"
+                  class="btn btn-dark"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/project.png"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Coming Soon</h5>
+                <p class="card-text">
+                  I am currently working on a WooCommerce website. Please check
+                  back soon for updates!
+                </p>
+                <a href="#" target="" class="btn btn-dark">View Project</a>
               </div>
             </div>
           </div>
@@ -226,7 +304,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5">
+    <section id="contact" class="pb-5">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -253,7 +331,7 @@
                   required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-dark">Submit</button>
             </form>
           </div>
           <div class="col-md-6">
@@ -261,13 +339,13 @@
               <div class="card-body">
                 <h5 class="card-title">Contact Information</h5>
                 <p class="card-text">
-                  Feel free to contact me if you have any questions or would
-                  like to discuss a potential project.
+                  Feel free to contact me via the form on the left and follow me
+                  on any of the following social media platforms:
                 </p>
                 <ul class="list-unstyled">
-                  <li>✉️ email@example.com</li>
-                  <li>📞 (123) 456-7890</li>
-                  <li>📍 City, State</li>
+                  <li><i class="fa-brands fa-github"></i> GitHub</li>
+                  <li><i class="fa-brands fa-linkedin"></i> LinkedIn</li>
+                  <li><i class="fa-brands fa-instagram"></i> Instagram</li>
                 </ul>
               </div>
             </div>
@@ -277,12 +355,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-3">
+    <footer class="bg-dark text-white pt-3">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12">
             <p class="text-center">
-              Copyright © 2023 Junior Web Developer Portfolio
+              Copyright © 2023 John Bouakhasith - johnbthe.dev. Made with HTML,
+              CSS, JS, Bootstrap, Sweat, and Tears.
             </p>
           </div>
         </div>
@@ -291,11 +370,8 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-gO91x00RdOevdtHKM6UvS6Uzn07gO3z6U3Gq/nyf9W1p8y/cJbGzDqTxydaNw+tn"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
