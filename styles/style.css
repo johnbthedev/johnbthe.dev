@@ -72,8 +72,14 @@ footer {
   .bottom-margin {
     margin-bottom: 2rem;
   }
-  header {
+  /* header {
     display: none;
+  } */
+  .lead {
+    display: none;
+  }
+  .container > h1 > p {
+    font-size: 1rem;
   }
   #about {
     padding-top: 2rem;
