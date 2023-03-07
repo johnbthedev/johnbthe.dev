@@ -61,7 +61,20 @@ a:visited {
   text-decoration: none;
 }
 
-/* Navbar */
+/* Navbar z-index*/
 .navbar {
   z-index: 999;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bottom-margin {
+    margin-bottom: 2rem;
+  }
+  header {
+    display: none;
+  }
+}
+#about {
+  padding-top: 2rem;
 }
