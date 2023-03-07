@@ -62,7 +62,8 @@ a:visited {
 }
 
 /* Navbar z-index*/
-.navbar {
+.navbar,
+footer {
   z-index: 999;
 }
 
