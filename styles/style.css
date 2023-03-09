@@ -111,6 +111,20 @@ footer {
 
 /* Responsive */
 @media (max-width: 912px) {
+  .container > h1 > p,
+  .container > p {
+    font-size: 1.5rem;
+  }
+
+  .avatar {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 540px) {
   .bottom-margin {
     margin-bottom: 2rem;
   }
@@ -139,16 +153,23 @@ footer {
     display: none;
   } */
 
-  .lead {
-    display: none;
-  }
-
-  .container > h1 > p {
-    font-size: 1rem;
+  .container > h1 > p,
+  .container > p {
+    font-size: 0.9rem;
   }
 
   #about {
     padding-top: 2rem;
   }
+
+  .jumbotron {
+    padding: 1rem;
+  }
+}
+/*  */
+
+/* Remove margin after <p> tag*/
+.no-margin {
+  margin-bottom: 0;
 }
 /*  */
