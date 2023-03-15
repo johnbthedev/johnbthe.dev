@@ -20,6 +20,10 @@ body {
 .card-body {
   box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
 }
+
+.black-shadow {
+  box-shadow: 0.5rem 0.5rem black;
+}
 /*  */
 
 /* Typing Effect */
