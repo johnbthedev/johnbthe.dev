@@ -9,7 +9,7 @@
     <title>johnbthe.dev | Under Construction</title>
   </head>
   <body>
-    <nav class="bg-white">
+    <nav class="bg-white shadow-md">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
           <div class="flex-shrink-0 flex items-center">
@@ -35,6 +35,7 @@
         </div>
       </div>
     </nav>
+
     <section
       id="hero"
       class="relative bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500"
@@ -68,31 +69,82 @@
         </div>
 
         <div class="absolute inset-x-0 bottom-0">
-          <svg
-            class="w-full h-16 text-white"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-            preserveAspectRatio="none"
-            width="100%"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
-              fill="currentColor"
+              fill="#ffffff"
               fill-opacity="1"
-              d="M0,128L60,117.3C120,107,240,85,360,74.7C480,64,600,64,720,74.7C840,85,960,107,1080,128C1200,149,1320,171,1380,181.3L1440,192V320H0V192Z"
+              d="M0,32L48,69.3C96,107,192,181,288,224C384,267,480,277,576,282.7C672,288,768,288,864,256C960,224,1056,160,1152,128C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             ></path>
           </svg>
         </div>
       </div>
     </section>
 
-    <section id="blog" class="py-32 px-4 sm:px-6 lg:px-8">
-      <div class="max-w-7xl mx-auto">
-        <div class="text-center mb-8">
-          <h1 class="text-4xl font-bold mb-4">My Journey</h1>
-          <p class="text-lg">Stay up to date with our latest posts.</p>
+    <section id="blog">
+      <div class="max-w-7xl mx-auto px-4 py-32 sm:px-6 lg:px-8">
+        <div class="text-center mb-32">
+          <h1 class="text-4xl font-bold mb-4">
+            My Journey from Novice to Knowledgeable
+          </h1>
+          <p class="text-lg">
+            Join me as I document my experiences and share tips for aspiring web
+            developers
+          </p>
+        </div>
+        <div class="flex flex-col mb-6 md:flex-row md:space-x-6">
+          <div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <img
+                src="https://placehold.it/150x150"
+                alt="Author's portrait"
+                class="h-48 w-full object-cover object-center"
+              />
+              <div class="p-6">
+                <h2 class="text-xl font-semibold mb-2">Author Name</h2>
+                <p class="text-gray-500 text-sm">Published on March 29, 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-2/3 lg:w-3/4">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <div class="p-6">
+                <h1 class="text-4xl font-bold mb-4">Blog Post Header</h1>
+                <p class="text-lg mb-4">Here's the content of the blog post.</p>
+                <p class="text-lg mb-4">
+                  Here's some more content for the blog post.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col mb-6 md:flex-row md:space-x-6">
+          <div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <img
+                src="https://placehold.it/150x150"
+                alt="Author's portrait"
+                class="h-48 w-full object-cover object-center"
+              />
+              <div class="p-6">
+                <h2 class="text-xl font-semibold mb-2">Author Name</h2>
+                <p class="text-gray-500 text-sm">Published on March 29, 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-2/3 lg:w-3/4">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <div class="p-6">
+                <h1 class="text-4xl font-bold mb-4">Blog Post Header</h1>
+                <p class="text-lg mb-4">Here's the content of the blog post.</p>
+                <p class="text-lg mb-4">
+                  Here's some more content for the blog post.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="flex flex-col md:flex-row md:space-x-6">
-          <div class="w-full md:w-1/3 lg:w-1/4">
+          <div>
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
               <img
                 src="https://placehold.it/150x150"
@@ -119,5 +171,151 @@
         </div>
       </div>
     </section>
+
+    <section id="portfolio" class="relative bg-gray-50">
+      <div
+        class="w-full max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8 relative z-10"
+      >
+        <div class="text-center mb-32">
+          <h1 class="text-4xl font-bold mb-4">Portfolio</h1>
+          <p class="text-lg">Take a look at some of my recent projects.</p>
+        </div>
+        <div class="flex flex-wrap flex-col md:flex-row -mx-4">
+          <div class="w-full md:w-1/2 lg:w-1/3 mb-6 px-4">
+            <div
+              class="bg-white rounded-lg shadow-md overflow-hidden md:flex-1"
+            >
+              <img
+                src="https://placehold.it/600x400"
+                alt="Project Image"
+                class="h-64 w-full object-cover object-center"
+              />
+              <div class="p-6">
+                <h2 class="text-xl font-semibold mb-2">Project Name</h2>
+                <p class="text-gray-500 text-sm mb-4">
+                  Technologies used: HTML, CSS, JavaScript
+                </p>
+                <p class="text-lg mb-4">A short description of the project.</p>
+                <a href="#" class="text-blue-500 hover:text-blue-700"
+                  >View project &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 mb-6 px-4">
+            <div
+              class="bg-white rounded-lg shadow-md overflow-hidden md:flex-1"
+            >
+              <img
+                src="https://placehold.it/600x400"
+                alt="Project Image"
+                class="h-64 w-full object-cover object-center"
+              />
+              <div class="p-6">
+                <h2 class="text-xl font-semibold mb-2">Project Name</h2>
+                <p class="text-gray-500 text-sm mb-4">
+                  Technologies used: HTML, CSS, JavaScript
+                </p>
+                <p class="text-lg mb-4">A short description of the project.</p>
+                <a href="#" class="text-blue-500 hover:text-blue-700"
+                  >View project &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 mb-6 px-4">
+            <div
+              class="bg-white rounded-lg shadow-md overflow-hidden md:flex-1"
+            >
+              <img
+                src="https://placehold.it/600x400"
+                alt="Project Image"
+                class="h-64 w-full object-cover object-center"
+              />
+              <div class="p-6">
+                <h2 class="text-xl font-semibold mb-2">Project Name</h2>
+                <p class="text-gray-500 text-sm mb-4">
+                  Technologies used: HTML, CSS, JavaScript
+                </p>
+                <p class="text-lg mb-4">A short description of the project.</p>
+                <a href="#" class="text-blue-500 hover:text-blue-700"
+                  >View project &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="relative">
+      <div
+        class="w-full max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8 relative z-10"
+      >
+        <div class="text-center mb-32">
+          <h1 class="text-4xl font-bold mb-4">About Me</h1>
+          <p class="text-lg">
+            Here's a little bit about myself and my background.
+          </p>
+        </div>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/4 mb-6 px-4">
+            <img
+              src="https://placehold.it/300x300"
+              alt="Profile Image"
+              class="h-64 w-full object-cover object-center rounded-lg shadow-md"
+            />
+          </div>
+          <div class="w-full md:w-3/4 mb-6 px-4">
+            <p class="text-lg mb-4">
+              Hi there! My name is [Your Name] and I'm a [Your Profession] with
+              [Number] years of experience in the field.
+            </p>
+            <p class="text-lg mb-4">
+              Throughout my career, I've worked on a variety of projects and
+              gained expertise in [Areas of Expertise]. I'm passionate about
+              [What You're Passionate About] and always strive to deliver the
+              best results for my clients.
+            </p>
+            <p class="text-lg mb-4">
+              In my free time, I enjoy [Hobbies and Interests]. I'm always
+              looking for new challenges and opportunities to learn and grow in
+              my field.
+            </p>
+            <a href="#" class="text-blue-500 hover:text-blue-700">
+              Contact Me &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-blue-500 text-white py-8">
+      <div class="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="md:flex md:items-center md:justify-between">
+          <div class="mb-4 md:mb-0">
+            <span class="font-semibold text-xl tracking-tight"
+              >johnbthe.dev</span
+            >
+          </div>
+
+          <div class="md:flex md:items-center">
+            <div class="text-sm">
+              <a href="#" class="block mt-4 md:inline-block md:mt-0 mr-6"
+                >Privacy Policy</a
+              >
+              <a href="#" class="block mt-4 md:inline-block md:mt-0 mr-6"
+                >Terms of Service</a
+              >
+              <a href="#" class="block mt-4 md:inline-block md:mt-0">Contact</a>
+            </div>
+
+            <div class="text-sm md:ml-4 mt-4 md:mt-0">
+              &copy; 2023 johnbthe.dev. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
