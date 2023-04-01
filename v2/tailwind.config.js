@@ -6,9 +6,7 @@ module.exports = {
   theme: {
     extend: {
       textShadow: {
-        sm: "0 1px 2px var(--tw-shadow-color)",
         DEFAULT: "2px 2px var(--tw-shadow-color)",
-        lg: "0 8px 16px var(--tw-shadow-color)",
       },
     },
   },
