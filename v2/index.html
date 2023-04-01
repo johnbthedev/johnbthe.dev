@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="backdrop-blur bg-white/80 shadow-md fixed w-full z-10">
+    <nav class="backdrop-blur bg-white/60 shadow-md fixed w-full z-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
           <div class="flex-shrink-0 flex items-center">
@@ -101,6 +101,7 @@
       id="hero"
       class="relative bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 py-16 lg:py-0"
     >
+    <div class="absolute top-0 left-0 w-full h-16 bg-white z-1"></div>
       <div
         class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
       >
@@ -341,12 +342,23 @@
 
     <!-- Hamburger -->
     <script>
-      const menuButton = document.getElementById("menu-button");
-      const menu = document.getElementById("menu");
-
-      menuButton.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
+      // Get the menu button and menu
+      const menuButton = document.getElementById('menu-button')
+      const menu = document.getElementById('menu')
+    
+      // Toggle the menu when the button is clicked
+      menuButton.addEventListener('click', () => {
+        menu.classList.toggle('hidden')
+      })
+    
+      // Close the menu when clicking anywhere outside of it
+      window.addEventListener('click', (event) => {
+        if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
+          menu.classList.remove('block');
+          menu.classList.add('hidden');
+        }
       });
+
     </script>
   </body>
 </html>
