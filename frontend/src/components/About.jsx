@@ -35,11 +35,38 @@ export default function About() {
                 alt="Profile Image"
                 className="h-64 w-full object-cover object-center rounded-lg shadow-md"
               />
+              <ul className="">
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>LinkedIn</li>
+                <li>Facebook</li>
+              </ul>
             </div>
             <div className="w-full md:w-3/4 px-4">
               <p className="text-lg text-gray-600 mb-4">
-                Hi there! My name is [Your Name] and I'm a [Your Profession]
-                with [Number] years of experience in the field.
+                Hello! My name is John Bouakhasith and I am a junior web
+                developer with expertise in HTML, CSS, JavaScript, and various
+                web development frameworks. My passion lies in creating visually
+                appealing and highly functional websites that provide an optimal
+                user experience.
+              </p>
+              <p className="text-lg text-gray-600 mb-4">
+                I am primarily self-taught, utilizing resources such as
+                FreeCodeCamp, YouTube, and The Odin Project to hone my skills.
+                In addition, I have some experience working with React and PHP,
+                and I'm always eager to expand my knowledge.
+              </p>
+
+              <p className="text-lg text-gray-600 mb-4">
+                When I'm not coding, you can find me indulging in my other
+                interests. I enjoy playing PC games, watching TV shows and
+                sports, traveling when possible, and spending quality time with
+                my furry feline companions - Kevin and Calvin.
+              </p>
+
+              <p className="text-lg text-gray-600 mb-4">
+                Please feel free to reach out if you have any questions or
+                inquiries!
               </p>
               <a href="#" className="text-blue-500 hover:text-blue-700">
                 Contact Me &rarr;
