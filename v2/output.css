@@ -812,11 +812,17 @@ video {
 .bg-cover {
   background-size: cover;
 }
+.bg-contain {
+  background-size: contain;
+}
 .bg-fixed {
   background-attachment: fixed;
 }
 .bg-center {
   background-position: center;
+}
+.bg-top {
+  background-position: top;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1139,6 +1145,10 @@ video {
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:bg-cover {
+    background-size: cover;
+  }
+
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1204,6 +1214,10 @@ video {
 
   .lg\:border-l-4 {
     border-left-width: 4px;
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
   }
 
   .lg\:p-6 {
