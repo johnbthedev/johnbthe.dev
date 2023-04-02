@@ -43,7 +43,7 @@ export default function Blog() {
                   </h3>
                 </a>
                 <p className="mt-1 text-sm text-gray-500">April 1, 2023</p>
-                <p className="mt-1 text-sm text-gray-500">
+                <p className="mt-1 text-gray-500">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus bibendum dolor at consequat rhoncus.
                 </p>

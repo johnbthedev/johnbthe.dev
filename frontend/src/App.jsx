@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Blog from "./components/Blog";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Blog />
       <Portfolio />
       <About />
+      <Footer />
     </>
   );
 }
