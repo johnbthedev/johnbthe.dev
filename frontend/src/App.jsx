@@ -6,7 +6,7 @@ import Portfolio from "./components/Portfolio";
 export default function App() {
   return (
     <>
-      <Navbar />;
+      <Navbar />
       <Hero />
       <Blog />
       <Portfolio />

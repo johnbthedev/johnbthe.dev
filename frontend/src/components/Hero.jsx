@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative bg-fixed bg-cover bg-center py-16 lg:py-0"
       style={{ backgroundImage: "url(./src/img/background.jpg)" }}
     >
-      <div className="absolute top-0 left-0 w-full h-10 bg-white z-1"></div>
+      <div className="absolute top-0 left-0 w-full h-16 bg-white z-1"></div>
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-4xl">
