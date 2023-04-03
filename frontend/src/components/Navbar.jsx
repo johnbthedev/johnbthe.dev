@@ -49,6 +49,12 @@ export default function Navbar() {
             >
               About
             </a>
+            <a
+              href="#"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
+            >
+              Contact
+            </a>
           </div>
 
           {/* Hamburger Button */}
@@ -110,6 +116,13 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
           >
             About
+          </a>
+          <a
+            href="#"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            onClick={() => setIsOpen(false)}
+          >
+            Contact
           </a>
         </nav>
       </div>

@@ -35,12 +35,6 @@ export default function About() {
                 alt="Profile Image"
                 className="h-64 w-full object-cover object-center rounded-lg shadow-md"
               />
-              <ul className="">
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>LinkedIn</li>
-                <li>Facebook</li>
-              </ul>
             </div>
             <div className="w-full md:w-3/4 px-4">
               <p className="text-lg text-gray-600 mb-4">
@@ -68,9 +62,6 @@ export default function About() {
                 Please feel free to reach out if you have any questions or
                 inquiries!
               </p>
-              <a href="#" className="text-blue-500 hover:text-blue-700">
-                Contact Me &rarr;
-              </a>
             </div>
           </div>
         </div>
