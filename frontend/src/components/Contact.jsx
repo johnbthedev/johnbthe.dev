@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="portfolio" className="bg-gray-100">
+    <section id="portfolio" className="bg-white">
       <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8 lg:py-32">
         <div className="text-center font-serif italic mb-16">
           <h1 className="text-4xl text-gray-900 font-bold mb-4">
@@ -13,7 +13,7 @@ export default function Contact() {
           </p>
           <div className="inline-flex items-center justify-center w-full">
             <hr className="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700" />
-            <div className="absolute px-4 -translate-x-1/2 bg-gray-100 left-1/2 dark:bg-gray-900">
+            <div className="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
               <svg
                 aria-hidden="true"
                 className="w-5 h-5 text-gray-700 dark:text-gray-300"
@@ -80,7 +80,7 @@ export default function Contact() {
             <div className="mt-6">
               <button
                 type="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-sky-500 hover:bg-sky-700 text-white py-3 px-5 rounded-full focus:outline-none focus:shadow-outline"
               >
                 Send Message
               </button>

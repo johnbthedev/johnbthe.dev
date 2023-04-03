@@ -35,19 +35,13 @@ export default function Navbar() {
               href="#"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
             >
-              Blog
+              About
             </a>
             <a
               href="#"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
             >
               Portfolio
-            </a>
-            <a
-              href="#"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
-            >
-              About
             </a>
             <a
               href="#"

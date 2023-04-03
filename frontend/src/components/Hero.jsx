@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-4xl">
-            <span className="text-slate-50">Hi. I'm John Bouakhasith,</span>
+            <span className="text-slate-50">Hi. I'm John Bouakhasith, </span>
             <strong className="text-yellow-300 text-3xl font-extrabold sm:text-4xl sm:block">
               Self-Taught Web Developer
             </strong>
@@ -20,11 +20,12 @@ export default function Hero() {
             I am on a journey to overcome obstacles and achieve success as a
             self-taught web developer
           </p>
-          <div className="mt-8 flex flex-wrap justify-center">
-            <a href="#">
-              <button className="block w-full sm:w-auto py-3 px-12 text-sm font-medium text-gray-900 bg-gray-50 rounded hover:text-gray-200 hover:bg-gray-500">
-                Join Me
-              </button>
+          <div className="mt-8 py-3 flex flex-wrap justify-center">
+            <a
+              href="#"
+              className="block sm:w-auto py-3 px-12 rounded-full bg-sky-500 hover:bg-sky-700 text-white"
+            >
+              Join Me
             </a>
           </div>
         </div>

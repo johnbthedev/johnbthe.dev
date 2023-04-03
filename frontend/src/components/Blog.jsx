@@ -22,8 +22,6 @@ export default function Blog() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
 
-  const numPosts = data.posts.data.length;
-
   return (
     <section id="blog">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 lg:py-32">
