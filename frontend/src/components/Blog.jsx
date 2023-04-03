@@ -1,6 +1,29 @@
 import React from "react";
+import { useQuery, gql } from "@apollo/client";
+
+const GET_POSTS = gql`
+  query {
+    posts {
+      data {
+        id
+        attributes {
+          title
+          date
+          body
+        }
+      }
+    }
+  }
+`;
 
 export default function Blog() {
+  const { loading, error, data } = useQuery(GET_POSTS);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error :(</p>;
+
+  const numPosts = data.posts.data.length;
+
   return (
     <section id="blog">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 lg:py-32">
@@ -31,30 +54,30 @@ export default function Blog() {
         </div>
 
         <div className="mt-4 flex flex-wrap -mx-4">
-          <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-white rounded-lg shadow divide-y divide-gray-200">
-              <div className="p-6">
-                <a
-                  href="#"
-                  className="text-gray-900 font-medium hover:text-gray-600"
-                >
-                  <h3 className="text-lg font-medium text-gray-900 truncate">
-                    Post Title 1
-                  </h3>
-                </a>
-                <p className="mt-1 text-sm text-gray-500">April 1, 2023</p>
-                <p className="mt-1 text-gray-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus bibendum dolor at consequat rhoncus.
-                </p>
-                <div className="mt-4">
-                  <a href="#" className="text-blue-500 hover:text-blue-700">
-                    Read More &rarr;
-                  </a>
+          {data.posts.data.map(({ id, attributes }) => (
+            <div className="w-full md:w-1/3 px-4 mb-8 last:mb-0">
+              <div className="bg-white rounded-lg shadow divide-y divide-gray-200">
+                <div className="p-6">
+                  <div key={id}>
+                    <h3 className="text-lg font-medium text-gray-900 truncate">
+                      {attributes.title}
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-500">
+                      {attributes.date}
+                    </p>
+                    <p className="mt-1 text-gray-500">
+                      {attributes.body.slice(0, 250)}...
+                    </p>
+                  </div>
+                  <div className="mt-4">
+                    <a href="#" className="text-blue-500 hover:text-blue-700">
+                      Read More &rarr;
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
