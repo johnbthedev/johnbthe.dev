@@ -29,14 +29,14 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-white">
       <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
+        <div className="md:text-center">
           <h2 className="text-base text-deep-indigo font-semibold tracking-wide uppercase">
             contact
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Let's Connect
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 md:mx-auto">
             Discover how I can help achieve your web development goals
           </p>
         </div>

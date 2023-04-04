@@ -49,7 +49,12 @@ export default function About() {
 
               <p className="text-lg text-gray-600 mb-4">
                 Please feel free to reach out if you have any questions or
-                inquiries!
+                inquiries. Thank you!
+              </p>
+              <p className="mb-4">
+                <a href="#" className="text-blue-500 hover:text-blue-700">
+                  Contact Me &rarr;
+                </a>
               </p>
             </div>
           </div>
