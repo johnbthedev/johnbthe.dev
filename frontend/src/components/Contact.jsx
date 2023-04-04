@@ -1,8 +1,33 @@
-import React from "react";
+import { React, useState } from "react";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        message,
+      }),
+    });
+
+    const data = await res.json();
+
+    setStatus(data.message);
+  };
+
   return (
-    <section id="portfolio" className="bg-white">
+    <section id="contact" className="bg-white">
       <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8 lg:py-32">
         <div className="text-center font-serif italic mb-16">
           <h1 className="text-4xl text-gray-900 font-bold mb-4">
@@ -31,7 +56,7 @@ export default function Contact() {
         </div>
 
         <div className="max-w-xl mx-auto">
-          <form className="grid grid-cols-1 gap-6">
+          <form className="grid grid-cols-1 gap-6" onSubmit={handleSubmit}>
             <div>
               <label
                 htmlFor="name"
@@ -45,6 +70,8 @@ export default function Contact() {
                 id="name"
                 placeholder="John Doe"
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
               />
             </div>
             <div>
@@ -60,6 +87,8 @@ export default function Contact() {
                 id="email"
                 placeholder="john.doe@example.com"
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
               />
             </div>
             <div>
@@ -75,7 +104,9 @@ export default function Contact() {
                 rows="4"
                 placeholder="Enter your message here"
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              ></textarea>
+                value={message}
+                onChange={(event) => setMessage(event.target.value)}
+              />
             </div>
             <div className="mt-6">
               <button
@@ -86,6 +117,9 @@ export default function Contact() {
               </button>
             </div>
           </form>
+          {status && (
+            <div className="text-center font-serif italic mb-16">{status}</div>
+          )}
         </div>
       </div>
     </section>

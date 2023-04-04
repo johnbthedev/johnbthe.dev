@@ -16,7 +16,7 @@ export default function Hero() {
               Self-Taught Web Developer
             </strong>
           </h1>
-          <p className="text-slate-50 mt-4 sm:text-xl sm:leading-relaxed">
+          <p className="text-slate-50 text-shadow shadow-black mt-4 sm:text-xl sm:leading-relaxed">
             I am on a journey to overcome obstacles and achieve success as a
             self-taught web developer
           </p>
