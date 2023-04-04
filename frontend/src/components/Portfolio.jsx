@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className="bg-gray-100">
+    <section id="portfolio">
       <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8 lg:py-32">
         <div className="w-full m-auto">
           <div className="text-center font-serif italic mb-16">
