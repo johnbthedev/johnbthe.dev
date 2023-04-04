@@ -19,7 +19,13 @@ export default function Footer() {
                 About
               </a>
               <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
+                Services
+              </a>
+              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
                 Portfolio
+              </a>
+              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
+                Technologies
               </a>
               <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
                 Contact
