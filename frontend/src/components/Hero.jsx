@@ -13,7 +13,7 @@ export default function Hero() {
           <h1 className="text-3xl font-extrabold sm:text-4xl">
             <span className="text-slate-50">Hi. I'm John Bouakhasith, </span>
             <strong className="text-yellow-300 text-3xl font-extrabold sm:text-4xl sm:block">
-              Self-Taught Web Developer
+              Junior Web Developer.
             </strong>
           </h1>
           <p className="text-slate-50 text-shadow shadow-black mt-4 sm:text-xl sm:leading-relaxed">

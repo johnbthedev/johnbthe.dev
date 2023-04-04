@@ -10,32 +10,39 @@ function Technologies() {
           </h2>
         </div>
         <div className="mt-10 flex flex-wrap justify-center">
-          <div className="w-1/4 p-6">
+          <div className="w-1/5 p-6">
             <img
-              className="h-12 w-12"
-              src="/images/react-logo.svg"
-              alt="React Logo"
+              className="h-20 w-20"
+              src="./src/img/wordpress.svg"
+              alt="WordPress Logo"
             />
           </div>
-          <div className="w-1/4 p-6">
+          <div className="w-1/5 p-6">
             <img
-              className="h-12 w-12"
-              src="/images/nodejs-logo.svg"
-              alt="Node.js Logo"
+              className="h-20 w-20"
+              src="./src/img/wordpress.svg"
+              alt="WordPress Logo"
             />
           </div>
-          <div className="w-1/4 p-6">
+          <div className="w-1/5 p-6">
             <img
-              className="h-12 w-12"
-              src="/images/mysql-logo.svg"
-              alt="MySQL Logo"
+              className="h-20 w-20"
+              src="./src/img/wordpress.svg"
+              alt="WordPress Logo"
             />
           </div>
-          <div className="w-1/4 p-6">
+          <div className="w-1/5 p-6">
             <img
-              className="h-12 w-12"
-              src="/images/aws-logo.svg"
-              alt="AWS Logo"
+              className="h-20 w-20"
+              src="./src/img/wordpress.svg"
+              alt="WordPress Logo"
+            />
+          </div>
+          <div className="w-1/5 p-6">
+            <img
+              className="h-20 w-20"
+              src="./src/img/wordpress.svg"
+              alt="WordPress Logo"
             />
           </div>
         </div>

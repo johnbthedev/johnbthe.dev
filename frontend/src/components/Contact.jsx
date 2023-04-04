@@ -28,34 +28,20 @@ export default function Contact() {
 
   return (
     <section id="contact" className="bg-white">
-      <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8 lg:py-32">
-        <div className="text-center font-serif italic mb-16">
-          <h1 className="text-4xl text-gray-900 font-bold mb-4">
-            Get In Touch
-          </h1>
-          <p className="text-lg text-gray-600">
-            Let's connect and work together!
+      <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+        <div className="lg:text-center">
+          <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+            contact
+          </h2>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Let's Connect
           </p>
-          <div className="inline-flex items-center justify-center w-full">
-            <hr className="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700" />
-            <div className="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
-              <svg
-                aria-hidden="true"
-                className="w-5 h-5 text-gray-700 dark:text-gray-300"
-                viewBox="0 0 24 27"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </div>
-          </div>
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            Contact me to explore my skills and experience
+          </p>
         </div>
 
-        <div className="max-w-xl mx-auto">
+        <div className="max-w-xl mx-auto mt-10">
           <form className="grid grid-cols-1 gap-6" onSubmit={handleSubmit}>
             <div>
               <label
