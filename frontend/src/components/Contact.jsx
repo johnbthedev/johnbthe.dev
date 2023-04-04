@@ -37,7 +37,7 @@ export default function Contact() {
             Let's Connect
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Contact me to explore my skills and experience
+            Discover how I can help achieve your web development goals
           </p>
         </div>
 

@@ -13,7 +13,7 @@ export default function About() {
               Meet John Bouakhasith, Junior Web Developer
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              A little bit about me and my background
+              A little about me and my background
             </p>
           </div>
 
