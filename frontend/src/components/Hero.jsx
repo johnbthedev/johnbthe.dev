@@ -5,25 +5,28 @@ export default function Hero() {
     <section
       id="hero"
       className="relative bg-fixed bg-cover bg-center py-16 lg:py-0"
-      style={{ backgroundImage: "url(./src/img/background.jpg)" }}
+      style={{
+        background:
+          "linear-gradient(100deg, #37306B 0%, #66347F 25%, #9E4784 50%, #D27685 75%)",
+      }}
     >
       <div className="absolute top-0 left-0 w-full h-16 bg-white z-1"></div>
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-4xl">
             <span className="text-slate-50">Hi. I'm John Bouakhasith, </span>
-            <strong className="text-yellow-300 text-3xl font-extrabold sm:text-4xl sm:block">
+            <strong className="text-deep-indigo text-3xl font-extrabold sm:text-4xl sm:block">
               Junior Web Developer.
             </strong>
           </h1>
-          <p className="text-slate-50 text-shadow shadow-black mt-4 sm:text-xl sm:leading-relaxed">
+          <p className="text-slate-50 mt-4 sm:text-xl sm:leading-relaxed">
             I am on a journey to overcome obstacles and achieve success as a
             self-taught web developer
           </p>
           <div className="mt-8 py-3 flex flex-wrap justify-center">
             <a
               href="#"
-              className="block sm:w-auto py-3 px-12 rounded-full bg-sky-500 hover:bg-sky-700 text-white"
+              className="block sm:w-auto py-3 px-12 rounded-full bg-deep-indigo hover:bg-deep-purple text-white"
             >
               Join Me
             </a>

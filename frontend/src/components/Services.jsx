@@ -5,7 +5,7 @@ function Services() {
     <div className="bg-gray-100 py-12">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="lg:text-center">
-          <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-deep-indigo font-semibold tracking-wide uppercase">
             services
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -22,7 +22,7 @@ function Services() {
             <li>
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ function Services() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ function Services() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@ function Services() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
