@@ -19,7 +19,7 @@ export default function Portfolio() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
             <div>
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
                   src="https://placehold.it/600x400"
                   alt="Project Image"

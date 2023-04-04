@@ -20,9 +20,9 @@ export default function About() {
           <div className="flex flex-wrap -mx-4 mt-10">
             <div className="w-full md:w-1/4 mb-6 px-4">
               <img
-                src="https://placehold.it/300x300"
+                src="./src/img/portrait.jpg"
                 alt="Profile Image"
-                className="h-64 w-full object-cover object-center rounded-lg shadow-md"
+                className="h-64 w-full object-cover object-center rounded-lg shadow-lg"
               />
             </div>
             <div className="w-full md:w-3/4 px-4">
