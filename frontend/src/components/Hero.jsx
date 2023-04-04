@@ -25,7 +25,7 @@ export default function Hero() {
           </p>
           <div className="mt-8 py-3 flex flex-wrap justify-center">
             <a
-              href="#"
+              href="#contact"
               className="block sm:w-auto py-3 px-12 rounded-full bg-deep-indigo hover:bg-deep-purple text-white"
             >
               Join Me

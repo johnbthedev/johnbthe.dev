@@ -12,19 +12,34 @@ export default function Footer() {
           </div>
           <div className="lg:flex lg:items-center">
             <div className="text-sm">
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
+              <a
+                href="#home"
+                className="block mt-4 lg:inline-block lg:mt-0 mr-6"
+              >
                 Home
               </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
+              <a
+                href="#about"
+                className="block mt-4 lg:inline-block lg:mt-0 mr-6"
+              >
                 About
               </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
+              <a
+                href="#services"
+                className="block mt-4 lg:inline-block lg:mt-0 mr-6"
+              >
                 Services
               </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
+              <a
+                href="#portfolio"
+                className="block mt-4 lg:inline-block lg:mt-0 mr-6"
+              >
                 Portfolio
               </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
+              <a
+                href="#contact"
+                className="block mt-4 lg:inline-block lg:mt-0 mr-6"
+              >
                 Contact
               </a>
               <span className="text-sm block mt-4 lg:inline-block lg:mt-0">

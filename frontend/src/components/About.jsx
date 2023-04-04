@@ -20,39 +20,45 @@ export default function About() {
           <div className="flex flex-wrap -mx-4 mt-10">
             <div className="w-full md:w-1/4 mb-6 px-4">
               <img
-                src="./src/img/portrait.jpg"
+                src="img/portrait.jpg"
                 alt="Profile Image"
                 className="h-64 w-full object-cover object-center rounded-lg shadow-lg"
               />
             </div>
             <div className="w-full md:w-3/4 px-4">
               <p className="text-lg text-gray-600 mb-4">
-                Hello! My name is John Bouakhasith and I am a junior web
-                developer with expertise in HTML, CSS, JavaScript, and various
-                web development frameworks. My passion lies in creating visually
-                appealing and highly functional websites that provide an optimal
-                user experience.
+                Hey there! I'm John Bouakhasith, a junior web developer with a
+                passion for creating visually stunning and highly functional
+                websites that offer an amazing user experience. With expertise
+                in HTML, CSS, JavaScript, and various web development
+                frameworks, I love nothing more than bringing digital visions to
+                life.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                I am primarily self-taught, utilizing resources such as
-                FreeCodeCamp, YouTube, and The Odin Project to hone my skills.
-                In addition, I have some experience working with React and
-                WordPress, and I'm always eager to expand my knowledge.
-              </p>
-
-              <p className="text-lg text-gray-600 mb-4">
-                When I'm not coding, you can find me indulging in my other
-                interests. I enjoy playing PC games, watching TV shows and
-                sports, traveling when possible, and spending quality time with
-                my furry feline companions - Kevin and Calvin.
+                As a primarily self-taught developer, I've spent countless hours
+                honing my skills through resources like FreeCodeCamp, YouTube,
+                and The Odin Project. I've also gained valuable experience
+                working with React and WordPress, but I'm always eager to expand
+                my knowledge and explore new technologies.
               </p>
 
               <p className="text-lg text-gray-600 mb-4">
-                Please feel free to reach out if you have any questions or
-                inquiries. Thank you!
+                When I'm not coding, you'll find me indulging in my other
+                interests. I'm an avid PC gamer, a fan of binge-worthy TV shows
+                and sports, and I love to travel whenever I can. Oh, and I can't
+                forget to mention my two furry feline companions, Kevin and
+                Calvin - they keep me company during those long coding sessions.
+              </p>
+
+              <p className="text-lg text-gray-600 mb-4">
+                If you have any questions or inquiries, please don't hesitate to
+                reach out. I'd love to hear from you.
               </p>
               <p className="mb-4">
-                <a href="#" className="text-blue-500 hover:text-blue-700">
+                <a
+                  href="#contact"
+                  className="text-blue-500 hover:text-blue-700"
+                >
                   Contact Me &rarr;
                 </a>
               </p>

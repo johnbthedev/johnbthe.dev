@@ -19,33 +19,29 @@ function Technologies() {
         </div>
         <div className="mt-10 flex flex-wrap justify-center">
           <div className="w-1/5 p-6 flex justify-center">
-            <img className="h-20" src="./src/img/react.svg" alt="React Logo" />
+            <img className="h-20" src="img/react.svg" alt="React Logo" />
           </div>
           <div className="w-1/5 p-6 flex justify-center">
             <img
               className="h-20"
-              src="./src/img/tailwind-css.svg"
+              src="img/tailwind-css.svg"
               alt="Tailwind Logo"
             />
           </div>
           <div className="w-1/5 p-6 flex justify-center">
             <img
               className="h-20"
-              src="./src/img/bootstrap.svg"
+              src="img/bootstrap.svg"
               alt="Bootstrap Logo"
             />
           </div>
           <div className="w-1/5 p-6 flex justify-center">
-            <img
-              className="h-20"
-              src="./src/img/strapi.monogram.svg"
-              alt="Strapi Logo"
-            />
+            <img className="h-20" src="img/strapi.svg" alt="Strapi Logo" />
           </div>
           <div className="w-1/5 p-6 flex justify-center">
             <img
               className="h-20"
-              src="./src/img/wordpress.svg"
+              src="img/wordpress.svg"
               alt="WordPress Logo"
             />
           </div>

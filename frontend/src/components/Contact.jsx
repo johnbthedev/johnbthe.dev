@@ -96,11 +96,18 @@ export default function Contact() {
             </div>
             <div className="mt-6">
               <button
+                disabled
                 type="submit"
-                className="bg-deep-indigo hover:bg-deep-purple text-white py-3 px-5 rounded-full focus:outline-none focus:shadow-outline"
+                className="line-through bg-deep-indigo hover:bg-deep-purple text-white py-3 px-5 rounded-full focus:outline-none focus:shadow-outline"
               >
                 Send Message
               </button>
+              <a
+                href="mailto:hi@johnbthe.dev"
+                className="pl-6 text-blue-500 hover:text-blue-700"
+              >
+                Contact Me &rarr;
+              </a>
             </div>
           </form>
           {status && (

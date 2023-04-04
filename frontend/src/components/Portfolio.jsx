@@ -22,7 +22,7 @@ export default function Portfolio() {
             {/* Project */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="./src/img/coming-soon.jpg"
+                src="img/coming-soon.jpg"
                 alt="Project Image"
                 className="h-64 w-full object-cover object-center"
               />
@@ -54,7 +54,7 @@ export default function Portfolio() {
             {/* Project */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="./src/img/coming-soon.jpg"
+                src="img/coming-soon.jpg"
                 alt="Project Image"
                 className="h-64 w-full object-cover object-center"
               />
