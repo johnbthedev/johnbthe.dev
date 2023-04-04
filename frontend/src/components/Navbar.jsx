@@ -26,31 +26,31 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex items-center">
             <a
-              href="#"
+              href="#home"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
             >
               Home
             </a>
             <a
-              href="#"
+              href="#about"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
             >
               About
             </a>
             <a
-              href="#"
+              href="#services"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
             >
               Services
             </a>
             <a
-              href="#"
+              href="#portfolio"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
             >
               Portfolio
             </a>
             <a
-              href="#"
+              href="#contact"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
             >
               Contact
@@ -90,35 +90,35 @@ export default function Navbar() {
           aria-label="Main"
         >
           <a
-            href="#"
+            href="#home"
             className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
             onClick={() => setIsOpen(false)}
           >
             Home
           </a>
           <a
-            href="#"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
-            onClick={() => setIsOpen(false)}
-          >
-            Blog
-          </a>
-          <a
-            href="#"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
-            onClick={() => setIsOpen(false)}
-          >
-            Portfolio
-          </a>
-          <a
-            href="#"
+            href="#about"
             className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
             onClick={() => setIsOpen(false)}
           >
             About
           </a>
           <a
-            href="#"
+            href="#services"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            onClick={() => setIsOpen(false)}
+          >
+            Services
+          </a>
+          <a
+            href="#portfolio"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            onClick={() => setIsOpen(false)}
+          >
+            Portfolio
+          </a>
+          <a
+            href="#contact"
             className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
             onClick={() => setIsOpen(false)}
           >

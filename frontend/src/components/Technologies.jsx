@@ -3,7 +3,7 @@ import React from "react";
 function Technologies() {
   return (
     <section id="technolgies" className="bg-gray-100">
-      <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-deep-indigo font-semibold tracking-wide uppercase">
             technologies

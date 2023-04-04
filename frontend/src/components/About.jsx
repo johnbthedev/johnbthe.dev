@@ -36,8 +36,8 @@ export default function About() {
               <p className="text-lg text-gray-600 mb-4">
                 I am primarily self-taught, utilizing resources such as
                 FreeCodeCamp, YouTube, and The Odin Project to hone my skills.
-                In addition, I have some experience working with React and PHP,
-                and I'm always eager to expand my knowledge.
+                In addition, I have some experience working with React and
+                WordPress, and I'm always eager to expand my knowledge.
               </p>
 
               <p className="text-lg text-gray-600 mb-4">
