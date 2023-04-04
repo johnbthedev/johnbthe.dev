@@ -17,6 +17,8 @@ export default function Portfolio() {
               web development goals to life
             </p>
           </div>
+
+          {/* Project */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
             <div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">

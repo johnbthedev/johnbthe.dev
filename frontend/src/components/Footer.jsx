@@ -25,13 +25,11 @@ export default function Footer() {
                 Portfolio
               </a>
               <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
-                Technologies
-              </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 mr-6">
                 Contact
               </a>
               <span className="text-sm block mt-4 lg:inline-block lg:mt-0">
-                &copy; 2023 johnbthe.dev. Made with React and Tailwind.
+                &copy; 2023 johnbthe.dev. Built with React, Tailwind, and
+                Strapi.
               </span>
             </div>
           </div>
