@@ -21,20 +21,29 @@ export default function Portfolio() {
             <div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="https://placehold.it/600x400"
+                  src="./src/img/coming-soon.jpg"
                   alt="Project Image"
                   className="h-64 w-full object-cover object-center"
                 />
                 <div className="p-6">
                   <h2 className="text-xl text-gray-900 font-semibold mb-2">
-                    Project Name
+                    Therapy With Esther
                   </h2>
                   <p className="text-gray-500 text-sm mb-4">
-                    Technologies used: HTML, CSS, JavaScript
+                    Technologies used: React, Tailwind CSS
                   </p>
-                  <p className="text-lg text-gray-900 mb-4">
-                    A short description of the project.
+                  <p className="text-md text-gray-900 mb-4">
+                    This website was created for a relationship therapist who
+                    specializes in helping individuals and couples build healthy
+                    and fulfilling relationships. The website features a modern
+                    and inviting design, with easy-to-use navigation and
+                    informative content about the therapist's services and
+                    approach.
                   </p>
+                  <p className="text-md text-gray-900 mb-4">
+                    Still under construction.
+                  </p>
+
                   <a href="#" className="text-blue-500 hover:text-blue-700">
                     View Project &rarr;
                   </a>

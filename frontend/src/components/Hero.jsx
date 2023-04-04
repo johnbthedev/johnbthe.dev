@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section
-      id="hero"
+      id="home"
       className="relative bg-fixed bg-cover bg-center py-16 lg:py-0"
       style={{
         background:
