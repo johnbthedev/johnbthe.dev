@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative bg-fixed bg-cover bg-center py-16 lg:py-0"
       style={{
         background:
-          "linear-gradient(100deg, #37306B 0%, #66347F 25%, #9E4784 50%, #D27685 75%)",
+          "linear-gradient(45deg, #37306B 0%, #66347F 25%, #9E4784 50%, #D27685 75%)",
       }}
     >
       <div className="absolute top-0 left-0 w-full h-16 bg-white z-1"></div>
@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-4xl">
             <span className="text-slate-50">Hi. I'm John Bouakhasith, </span>
-            <strong className="text-deep-indigo text-3xl font-extrabold sm:text-4xl sm:block">
+            <strong className="animate-text bg-gradient-to-r from-blue-300 to-pink-500 via-purple-400 bg-clip-text text-transparent text-3xl font-extrabold sm:text-4xl sm:block">
               Junior Web Developer.
             </strong>
           </h1>
