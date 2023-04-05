@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <div class="flex items-center">
-              <div class="bg-gray-800 text-white font-bold text-lg p-2 rounded">
+              <div class="bg-deep-indigo text-white font-bold text-lg p-2 rounded">
                 JB
               </div>
               <h1 class="ml-2 text-gray-800 font-bold text-lg">johnbthe.dev</h1>
@@ -32,31 +32,31 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center">
             <a
               href="#home"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:text-white hover:bg-deep-purple"
             >
               Home
             </a>
             <a
               href="#about"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
             >
               About
             </a>
             <a
               href="#services"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
             >
               Services
             </a>
             <a
               href="#portfolio"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
             >
               Portfolio
             </a>
             <a
               href="#contact"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:bg-gray-200"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
             >
               Contact
             </a>
@@ -96,35 +96,35 @@ export default function Navbar() {
         >
           <a
             href="#home"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
             onClick={() => setIsOpen(false)}
           >
             Home
           </a>
           <a
             href="#about"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
             onClick={() => setIsOpen(false)}
           >
             About
           </a>
           <a
             href="#services"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
             onClick={() => setIsOpen(false)}
           >
             Services
           </a>
           <a
             href="#portfolio"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
             onClick={() => setIsOpen(false)}
           >
             Portfolio
           </a>
           <a
             href="#contact"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-500 hover:text-gray-200"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
             onClick={() => setIsOpen(false)}
           >
             Contact
