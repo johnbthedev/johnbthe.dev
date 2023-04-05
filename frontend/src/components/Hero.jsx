@@ -12,7 +12,7 @@ export default function Hero() {
     >
       <div class="waves"></div>
       <div className="absolute top-0 left-0 w-full h-16 bg-white z-2"></div>
-      <div className="z-10 mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center relative z-10">
+      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center relative">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-4xl">
             <span className="text-slate-50">Hi. I'm John Bouakhasith, </span>

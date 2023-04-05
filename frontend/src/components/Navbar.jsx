@@ -43,10 +43,10 @@ export default function Navbar() {
               About
             </a>
             <a
-              href="#services"
+              href="#skills"
               className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
             >
-              Services
+              Skills
             </a>
             <a
               href="#portfolio"
@@ -109,11 +109,11 @@ export default function Navbar() {
             About
           </a>
           <a
-            href="#services"
+            href="#skills"
             className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
             onClick={() => setIsOpen(false)}
           >
-            Services
+            Skills
           </a>
           <a
             href="#portfolio"

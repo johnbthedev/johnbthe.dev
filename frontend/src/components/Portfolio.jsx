@@ -13,8 +13,8 @@ export default function Portfolio() {
               See My Web Development Skills in Action
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Explore my past projects and see how I can help bring your web
-              development goals to life
+              Explore my projects and see how I bring my web development goals
+              to life
             </p>
           </div>
 

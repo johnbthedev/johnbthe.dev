@@ -26,10 +26,10 @@ export default function Footer() {
                 About
               </a>
               <a
-                href="#services"
+                href="#skills"
                 className="block mt-4 lg:inline-block lg:mt-0 mr-6"
               >
-                Services
+                Skills
               </a>
               <a
                 href="#portfolio"
