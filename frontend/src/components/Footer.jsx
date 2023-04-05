@@ -2,13 +2,14 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-600 text-white py-8">
+    <footer className="bg-gray-500 text-white py-8">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
-          <div className="mb-4 lg:mb-0">
-            <span className="font-semibold text-xl tracking-tight">
-              johnbthe.dev
-            </span>
+          <div class="flex items-center">
+            <div class="bg-gray-800 text-white font-bold text-lg p-2 rounded">
+              JB
+            </div>
+            <h1 class="ml-2 text-white font-bold text-lg">johnbthe.dev</h1>
           </div>
           <div className="lg:flex lg:items-center">
             <div className="text-sm">

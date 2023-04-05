@@ -12,38 +12,48 @@ function Technologies() {
             Mastering the Latest Web Development Technologies
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Discover the web development technologies I use to create websites
-            that are optimized for performance, functionality, and user
-            experience
+            These are just some of the web development technologies I utilize to
+            create exceptional websites
           </p>
         </div>
         <div className="mt-10 flex flex-wrap justify-center">
           <div className="w-1/5 p-6 flex justify-center">
-            <img className="h-20" src="img/react.svg" alt="React Logo" />
+            <a href="https://react.dev/">
+              <img className="h-20" src="img/react.svg" alt="React Logo" />
+            </a>
+          </div>
+
+          <div className="w-1/5 p-6 flex justify-center">
+            <a href="https://tailwindcss.com/">
+              <img
+                className="h-20"
+                src="img/tailwind-css.svg"
+                alt="Tailwind Logo"
+              />
+            </a>
           </div>
           <div className="w-1/5 p-6 flex justify-center">
-            <img
-              className="h-20"
-              src="img/tailwind-css.svg"
-              alt="Tailwind Logo"
-            />
+            <a href="https://getbootstrap.com/">
+              <img
+                className="h-20"
+                src="img/bootstrap.svg"
+                alt="Bootstrap Logo"
+              />
+            </a>
           </div>
           <div className="w-1/5 p-6 flex justify-center">
-            <img
-              className="h-20"
-              src="img/bootstrap.svg"
-              alt="Bootstrap Logo"
-            />
+            <a href="https://strapi.io/">
+              <img className="h-20" src="img/strapi.svg" alt="Strapi Logo" />
+            </a>
           </div>
           <div className="w-1/5 p-6 flex justify-center">
-            <img className="h-20" src="img/strapi.svg" alt="Strapi Logo" />
-          </div>
-          <div className="w-1/5 p-6 flex justify-center">
-            <img
-              className="h-20"
-              src="img/wordpress.svg"
-              alt="WordPress Logo"
-            />
+            <a href="https://wordpress.org/">
+              <img
+                className="h-20"
+                src="img/wordpress.svg"
+                alt="WordPress Logo"
+              />
+            </a>
           </div>
         </div>
       </div>

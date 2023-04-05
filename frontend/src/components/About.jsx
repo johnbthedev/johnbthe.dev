@@ -10,7 +10,7 @@ export default function About() {
               about
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Meet John Bouakhasith, Junior Web Developer
+              Who Am I?
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               A little about me and my background

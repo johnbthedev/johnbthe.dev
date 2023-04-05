@@ -34,10 +34,10 @@ export default function Contact() {
             contact
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Let's Connect
+            Get In Touch
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 md:mx-auto">
-            Discover how I can help achieve your web development goals
+            Let's work together to make your web development goals a reality
           </p>
         </div>
 
@@ -106,7 +106,7 @@ export default function Contact() {
                 href="mailto:hi@johnbthe.dev"
                 className="pl-6 text-blue-500 hover:text-blue-700"
               >
-                Contact Me &rarr;
+                Email Me &rarr;
               </a>
             </div>
           </form>
