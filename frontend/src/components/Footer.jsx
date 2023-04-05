@@ -44,8 +44,7 @@ export default function Footer() {
                 Contact
               </a>
               <span className="text-sm block mt-4 lg:inline-block lg:mt-0">
-                &copy; 2023 johnbthe.dev. Built with React, Tailwind, and
-                Strapi.
+                &copy; 2023 johnbthe.dev. Handcrafted by me ♥
               </span>
             </div>
           </div>
