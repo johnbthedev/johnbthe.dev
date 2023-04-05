@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
 import Technologies from "./components/Technologies";
+import "./waves.css";
 
 const client = new ApolloClient({
   uri: "http://localhost:1337/graphql",

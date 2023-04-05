@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-500 text-white py-8">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
-          <div class="flex items-center">
+          <div class="hidden flex items-center lg:flex">
             <div class="bg-gray-200 text-gray-500 font-bold text-lg p-2 rounded">
               JB
             </div>
@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="text-sm">
               <a
                 href="#home"
-                className="block mt-4 lg:inline-block lg:mt-0 mr-6"
+                className="block mt-0 lg:inline-block lg:mt-4 mr-6"
               >
                 Home
               </a>
