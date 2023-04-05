@@ -12,10 +12,10 @@ export default function Footer() {
             <h1 class="ml-2 text-white font-bold text-lg">johnbthe.dev</h1>
           </div>
           <div className="lg:flex lg:items-center">
-            <div className="text-sm">
+            <div className="text-sm lg:flex lg:items-center">
               <a
                 href="#home"
-                className="block mt-0 lg:inline-block lg:mt-4 mr-6"
+                className="block mt-0 lg:inline-block lg:mt-0 mr-6"
               >
                 Home
               </a>
