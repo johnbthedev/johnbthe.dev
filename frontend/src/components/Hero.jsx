@@ -29,7 +29,7 @@ export default function Hero() {
               href="#about"
               className="block sm:w-auto py-3 px-12 rounded-full bg-deep-indigo hover:bg-deep-purple text-white"
             >
-              Learn More
+              Join Me
             </a>
           </div>
         </div>

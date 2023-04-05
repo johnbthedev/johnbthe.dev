@@ -27,32 +27,35 @@ export default function About() {
             </div>
             <div className="w-full md:w-3/4 px-4">
               <p className="text-lg text-gray-600 mb-4">
-                Hey there! I'm John Bouakhasith, a self-taught web developer
-                with a passion for creating visually stunning and highly
-                functional websites that offer an amazing user experience. With
-                expertise in HTML, CSS, JavaScript, and various web development
-                frameworks, I love nothing more than bringing digital visions to
-                life.
+                Hello there, my name is John Bouakhasith, and I'm a self-taught
+                web developer with a passion for crafting visually stunning and
+                highly functional websites that offer an exceptional user
+                experience. I've always had a deep interest in web development,
+                but it wasn't until a couple of years ago that I started
+                learning to code. Since then, I've found a sense of fulfillment
+                in designing and creating websites from scratch.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                As a primarily self-taught developer, I've spent countless hours
-                honing my skills through resources like FreeCodeCamp, YouTube,
-                and The Odin Project. I've also gained valuable experience
-                working with React and WordPress, but I'm always eager to expand
-                my knowledge and explore new technologies.
-              </p>
-
-              <p className="text-lg text-gray-600 mb-4">
-                When I'm not coding, you'll find me indulging in my other
-                interests. I'm an avid PC gamer, a fan of binge-worthy TV shows
-                and sports, and I love to travel whenever I can. Oh, and I can't
-                forget to mention my two furry feline companions, Kevin and
-                Calvin - they keep me company during those long coding sessions.
+                I've dedicated countless hours to honing my skills using a
+                variety of resources, including FreeCodeCamp, YouTube, and The
+                Odin Project. Thanks to these resources, I've been able to learn
+                a lot and I'm always looking for ways to expand my knowledge and
+                explore new technologies.
               </p>
 
               <p className="text-lg text-gray-600 mb-4">
-                If you have any questions or inquiries, please don't hesitate to
-                reach out. I'd love to hear from you.
+                When I'm not coding, you'll likely find me indulging in my other
+                hobbies. I'm an avid PC gamer, a fan of binge-worthy TV shows
+                and sports, and I love to travel whenever possible. I also have
+                two furry feline companions, Kevin and Calvin, who keep me
+                company during long coding sessions.
+              </p>
+
+              <p className="text-lg text-gray-600 mb-4">
+                Thank you for taking the time to read this section. If you have
+                any questions or inquiries, please don't hesitate to get in
+                touch. I'm always open to connecting and would love to hear from
+                you!
               </p>
               <p className="mb-4">
                 <a
