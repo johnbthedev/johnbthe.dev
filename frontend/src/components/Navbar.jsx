@@ -32,31 +32,31 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center">
             <a
               href="#home"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:text-white hover:bg-deep-purple"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:text-white hover:bg-deep-indigo"
             >
               Home
             </a>
             <a
               href="#about"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-indigo"
             >
               About
             </a>
             <a
               href="#skills"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-indigo"
             >
               Skills
             </a>
             <a
               href="#portfolio"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-indigo"
             >
               Portfolio
             </a>
             <a
               href="#contact"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-purple"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-white hover:bg-deep-indigo"
             >
               Contact
             </a>
@@ -96,35 +96,35 @@ export default function Navbar() {
         >
           <a
             href="#home"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-indigo"
             onClick={() => setIsOpen(false)}
           >
             Home
           </a>
           <a
             href="#about"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-indigo"
             onClick={() => setIsOpen(false)}
           >
             About
           </a>
           <a
             href="#skills"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-indigo"
             onClick={() => setIsOpen(false)}
           >
             Skills
           </a>
           <a
             href="#portfolio"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-indigo"
             onClick={() => setIsOpen(false)}
           >
             Portfolio
           </a>
           <a
             href="#contact"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-purple"
+            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-deep-indigo"
             onClick={() => setIsOpen(false)}
           >
             Contact
