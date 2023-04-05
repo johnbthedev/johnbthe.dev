@@ -113,15 +113,14 @@ function Skills() {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    Knowledgeable in responsive design and accessibility
+                    Knowledgeable in responsive design
                   </h4>
                   <p className="mt-2 text-base text-gray-500">
                     I can create websites that are optimized for various devices
-                    and accessible to all users, including those with
-                    disabilities. I understand the importance of responsive
-                    design and have experience using media queries, flexbox, and
-                    grid systems to create layouts that adapt to different
-                    screen sizes.
+                    and accessible to all users. I understand the importance of
+                    responsive design and have experience using media queries,
+                    flexbox, and grid systems to create layouts that adapt to
+                    different screen sizes.
                   </p>
                 </div>
               </div>

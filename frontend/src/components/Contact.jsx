@@ -37,8 +37,7 @@ export default function Contact() {
             Get In Touch
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 md:mx-auto">
-            Have any questions, comments or concerns? I'm all ears and would
-            love to hear from you
+            Have any questions or comments? Please don't hesitate to reach out!
           </p>
         </div>
 

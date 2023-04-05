@@ -35,11 +35,12 @@ export default function About() {
                 fulfillment in designing and creating websites from scratch.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                I've dedicated countless hours to honing my skills using a
-                variety of resources, including FreeCodeCamp, YouTube, and The
-                Odin Project. Thanks to these resources, I've been able to learn
-                a lot and I'm always looking for ways to expand my knowledge and
-                explore new technologies.
+                I have dedicated countless hours to honing my skills using
+                various resources, including FreeCodeCamp, YouTube, and The Odin
+                Project. Thanks to these resources, I have been able to learn a
+                lot and I am always looking for ways to expand my knowledge and
+                explore new technologies. Ultimately, my goal is to become a
+                skilled full-stack web developer.
               </p>
 
               <p className="text-lg text-gray-600 mb-4">
@@ -51,10 +52,9 @@ export default function About() {
               </p>
 
               <p className="text-lg text-gray-600 mb-4">
-                Thank you for taking the time to read this section. If you have
-                any questions or inquiries, please don't hesitate to get in
-                touch. I'm always open to connecting and would love to hear from
-                you!
+                Thank you for taking the time to read about me. If you have any
+                questions or inquiries, please don't hesitate to get in touch.
+                I'm always open to connecting and would love to hear from you!
               </p>
               <p className="mb-4">
                 <a
