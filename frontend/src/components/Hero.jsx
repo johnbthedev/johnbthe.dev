@@ -15,8 +15,8 @@ export default function Hero() {
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-4xl">
             <span className="text-slate-50">Hi. I'm John Bouakhasith, </span>
-            <strong className="animate-text bg-gradient-to-r from-blue-300 to-pink-500 via-purple-400 bg-clip-text text-transparent text-3xl font-extrabold sm:text-4xl sm:block">
-              Junior Web Developer.
+            <strong className="animate-text bg-gradient-to-r from-blue-300 to-pink-500 via-purple-400 bg-clip-text text-transparent text-3xl font-extrabold sm:text-4xl block">
+              Web Developer.
             </strong>
           </h1>
           <p className="text-slate-50 mt-4 sm:text-xl sm:leading-relaxed">

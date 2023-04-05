@@ -18,13 +18,16 @@ function Technologies() {
         </div>
         <div className="mt-10 flex flex-wrap justify-center">
           <div className="w-1/5 p-6 flex justify-center">
-            <a href="https://react.dev/">
+            <a className="touch-action-manipulation" href="https://react.dev/">
               <img className="h-20" src="img/react.svg" alt="React Logo" />
             </a>
           </div>
 
           <div className="w-1/5 p-6 flex justify-center">
-            <a href="https://tailwindcss.com/">
+            <a
+              className="touch-action-manipulation"
+              href="https://tailwindcss.com/"
+            >
               <img
                 className="h-20"
                 src="img/tailwind-css.svg"
@@ -33,7 +36,10 @@ function Technologies() {
             </a>
           </div>
           <div className="w-1/5 p-6 flex justify-center">
-            <a href="https://getbootstrap.com/">
+            <a
+              className="touch-action-manipulation"
+              href="https://getbootstrap.com/"
+            >
               <img
                 className="h-20"
                 src="img/bootstrap.svg"
@@ -42,12 +48,15 @@ function Technologies() {
             </a>
           </div>
           <div className="w-1/5 p-6 flex justify-center">
-            <a href="https://strapi.io/">
+            <a className="touch-action-manipulation" href="https://strapi.io/">
               <img className="h-20" src="img/strapi.svg" alt="Strapi Logo" />
             </a>
           </div>
           <div className="w-1/5 p-6 flex justify-center">
-            <a href="https://wordpress.org/">
+            <a
+              className="touch-action-manipulation"
+              href="https://wordpress.org/"
+            >
               <img
                 className="h-20"
                 src="img/wordpress.svg"

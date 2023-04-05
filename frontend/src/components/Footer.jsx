@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div class="flex items-center">
-            <div class="bg-deep-indigo text-white font-bold text-lg p-2 rounded">
+            <div class="bg-gray-200 text-gray-500 font-bold text-lg p-2 rounded">
               JB
             </div>
             <h1 class="ml-2 text-white font-bold text-lg">johnbthe.dev</h1>
