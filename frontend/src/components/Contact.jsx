@@ -54,7 +54,6 @@ export default function Contact() {
                 type="text"
                 name="name"
                 id="name"
-                placeholder="John Doe"
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={name}
                 onChange={(event) => setName(event.target.value)}
@@ -71,7 +70,6 @@ export default function Contact() {
                 type="email"
                 name="email"
                 id="email"
-                placeholder="john.doe@example.com"
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
@@ -88,7 +86,6 @@ export default function Contact() {
                 name="message"
                 id="message"
                 rows="4"
-                placeholder="Enter your message here"
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
