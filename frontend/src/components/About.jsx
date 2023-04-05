@@ -27,13 +27,12 @@ export default function About() {
             </div>
             <div className="w-full md:w-3/4 px-4">
               <p className="text-lg text-gray-600 mb-4">
-                Hello there, my name is John Bouakhasith, and I'm a self-taught
+                Hello there. My name is John Bouakhasith, and I'm a self-taught
                 web developer with a passion for crafting visually stunning and
-                highly functional websites that offer an exceptional user
-                experience. I've always had a deep interest in web development,
-                but it wasn't until a couple of years ago that I started
-                learning to code. Since then, I've found a sense of fulfillment
-                in designing and creating websites from scratch.
+                highly functional websites. I've always had a deep interest in
+                web development, but it wasn't until a couple of years ago that
+                I started learning to code. Since then, I've found a sense of
+                fulfillment in designing and creating websites from scratch.
               </p>
               <p className="text-lg text-gray-600 mb-4">
                 I've dedicated countless hours to honing my skills using a
