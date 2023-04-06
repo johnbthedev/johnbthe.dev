@@ -63,7 +63,7 @@ export default function Portfolio() {
                   NotJustSnkrs
                 </h2>
                 <p className="text-gray-500 text-sm mb-4">
-                  Technologies used: HTML, CSS, JavaScript, WooCommerce
+                  Technologies used: Tailwind CSS, JavaScript, WooCommerce
                 </p>
                 <p className="text-md text-gray-900 mb-4">
                   This was created using WooCommerce to provide a seamless
@@ -76,7 +76,10 @@ export default function Portfolio() {
                   Still under construction.
                 </p>
 
-                <a href="#" className="text-blue-500 hover:text-blue-700">
+                <a
+                  href="https://notjustsnkrs.com/"
+                  className="text-blue-500 hover:text-blue-700"
+                >
                   View Project &rarr;
                 </a>
               </div>
