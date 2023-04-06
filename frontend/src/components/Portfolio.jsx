@@ -45,8 +45,20 @@ export default function Portfolio() {
                   Still under construction.
                 </p>
 
-                <a href="#" className="text-blue-500 hover:text-blue-700">
-                  View Project &rarr;
+                <a
+                  href="https://therapywithesther.com"
+                  target="_blank"
+                  className="text-blue-500 hover:text-blue-700"
+                >
+                  View Project{" "}
+                  <svg
+                    class="w-5 h-5 inline-block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M17 9a1 1 0 0 0-1 1v4H4V6h4a1 1 0 1 0 0-2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V10a1 1 0 0 0-1-1z" />
+                    <path d="M14 2h-4a1 1 0 1 0 0 2h2.59L8.3 8.3a1 1 0 0 0 1.4 1.4L14 5.41V8a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z" />
+                  </svg>
                 </a>
               </div>
             </div>
@@ -78,9 +90,18 @@ export default function Portfolio() {
 
                 <a
                   href="https://notjustsnkrs.com/"
+                  target="_blank"
                   className="text-blue-500 hover:text-blue-700"
                 >
-                  View Project &rarr;
+                  View Project{" "}
+                  <svg
+                    class="w-5 h-5 inline-block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M17 9a1 1 0 0 0-1 1v4H4V6h4a1 1 0 1 0 0-2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V10a1 1 0 0 0-1-1z" />
+                    <path d="M14 2h-4a1 1 0 1 0 0 2h2.59L8.3 8.3a1 1 0 0 0 1.4 1.4L14 5.41V8a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z" />
+                  </svg>
                 </a>
               </div>
             </div>
