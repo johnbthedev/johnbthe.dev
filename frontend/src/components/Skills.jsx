@@ -65,11 +65,16 @@ function Skills() {
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
                     <svg
+                      version="1.1"
+                      id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
                       width="32px"
                       height="32px"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 36 32"
+                      enable-background="new 0 0 36 32"
+                      xml:space="preserve"
+                      fill="#ffffff"
                       stroke="#ffffff"
                     >
                       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -80,12 +85,37 @@ function Skills() {
                       ></g>
                       <g id="SVGRepo_iconCarrier">
                         {" "}
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M9.29289 1.29289C9.48043 1.10536 9.73478 1 10 1H18C19.6569 1 21 2.34315 21 4V9C21 9.55228 20.5523 10 20 10C19.4477 10 19 9.55228 19 9V4C19 3.44772 18.5523 3 18 3H11V8C11 8.55228 10.5523 9 10 9H5V20C5 20.5523 5.44772 21 6 21H9C9.55228 21 10 21.4477 10 22C10 22.5523 9.55228 23 9 23H6C4.34315 23 3 21.6569 3 20V8C3 7.73478 3.10536 7.48043 3.29289 7.29289L9.29289 1.29289ZM6.41421 7H9V4.41421L6.41421 7ZM18.7071 12.2929L22.7071 16.2929C23.0976 16.6834 23.0976 17.3166 22.7071 17.7071L18.7071 21.7071C18.3166 22.0976 17.6834 22.0976 17.2929 21.7071C16.9024 21.3166 16.9024 20.6834 17.2929 20.2929L20.5858 17L17.2929 13.7071C16.9024 13.3166 16.9024 12.6834 17.2929 12.2929C17.6834 11.9024 18.3166 11.9024 18.7071 12.2929ZM14.7071 13.7071C15.0976 13.3166 15.0976 12.6834 14.7071 12.2929C14.3166 11.9024 13.6834 11.9024 13.2929 12.2929L9.29289 16.2929C8.90237 16.6834 8.90237 17.3166 9.29289 17.7071L13.2929 21.7071C13.6834 22.0976 14.3166 22.0976 14.7071 21.7071C15.0976 21.3166 15.0976 20.6834 14.7071 20.2929L11.4142 17L14.7071 13.7071Z"
-                          fill="#ffffff"
-                        ></path>{" "}
+                        <g>
+                          {" "}
+                          <path
+                            fill="#ffffff"
+                            d="M14.191,16.087c-0.195-0.195-0.512-0.195-0.707,0l-3.517,3.516c-0.094,0.094-0.146,0.221-0.146,0.354 s0.053,0.26,0.146,0.354l3.517,3.517c0.098,0.098,0.226,0.146,0.354,0.146s0.256-0.049,0.354-0.146 c0.195-0.195,0.195-0.512,0-0.707l-3.163-3.163l3.163-3.163C14.386,16.599,14.386,16.283,14.191,16.087z"
+                          ></path>{" "}
+                          <path
+                            fill="#ffffff"
+                            d="M19.857,23.827c0.098,0.098,0.226,0.146,0.354,0.146s0.256-0.049,0.354-0.146l3.516-3.517 c0.195-0.195,0.195-0.512,0-0.707l-3.516-3.516c-0.195-0.195-0.512-0.195-0.707,0s-0.195,0.512,0,0.707l3.163,3.163l-3.163,3.163 C19.662,23.315,19.662,23.632,19.857,23.827z"
+                          ></path>{" "}
+                          <path
+                            fill="#ffffff"
+                            d="M17.383,16.325l-1.671,7.033c-0.064,0.269,0.102,0.539,0.371,0.602c0.039,0.009,0.078,0.014,0.116,0.014 c0.226,0,0.431-0.155,0.486-0.384l1.671-7.033c0.064-0.269-0.102-0.539-0.371-0.602C17.718,15.892,17.448,16.057,17.383,16.325z"
+                          ></path>{" "}
+                          <path
+                            fill="#ffffff"
+                            d="M0,30.5C0,31.327,0.673,32,1.5,32h33c0.827,0,1.5-0.673,1.5-1.5v-18c0-0.276-0.224-0.5-0.5-0.5 S35,12.224,35,12.5v18c0,0.276-0.224,0.5-0.5,0.5h-33C1.224,31,1,30.776,1,30.5v-18C1,12.224,0.776,12,0.5,12S0,12.224,0,12.5V30.5 z"
+                          ></path>{" "}
+                          <path
+                            fill="#ffffff"
+                            d="M34.5,0h-33C0.673,0,0,0.673,0,1.5v8C0,10.327,0.673,11,1.5,11h33c0.827,0,1.5-0.673,1.5-1.5v-8 C36,0.673,35.327,0,34.5,0z M35,9.5c0,0.276-0.224,0.5-0.5,0.5h-33C1.224,10,1,9.776,1,9.5v-8C1,1.224,1.224,1,1.5,1h33 C34.776,1,35,1.224,35,1.5V9.5z"
+                          ></path>{" "}
+                          <circle fill="#ffffff" cx="4" cy="5.5" r="1"></circle>{" "}
+                          <circle fill="#ffffff" cx="7" cy="5.5" r="1"></circle>{" "}
+                          <circle
+                            fill="#ffffff"
+                            cx="10"
+                            cy="5.5"
+                            r="1"
+                          ></circle>{" "}
+                        </g>{" "}
                       </g>
                     </svg>
                   </div>
@@ -143,16 +173,14 @@ function Skills() {
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg leading-6 font-medium text-gray-900">
-                    Proficient in HTML, CSS, and JavaScript
+                    Knowledgeable in responsive design
                   </h4>
                   <p class="mt-2 text-base text-gray-500">
-                    My skills in these core technologies allow me to build
-                    visually appealing and interactive websites. I have
-                    experience using HTML to structure content, CSS to style it,
-                    and JavaScript to create dynamic and interactive elements.
-                    In addition, I am skilled in designing responsive websites
-                    that look great on any device, from desktops to mobile
-                    screens.
+                    I can create websites that are optimized for various devices
+                    and accessible to all users. I understand the importance of
+                    responsive design and have experience using media queries,
+                    flexbox, and grid systems to create layouts that adapt to
+                    different screen sizes.
                   </p>
                 </div>
               </div>
@@ -165,10 +193,11 @@ function Skills() {
                     <svg
                       width="32px"
                       height="32px"
-                      viewBox="0 0 24 24"
+                      viewBox="0 0 16 16"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="#ffffff"
                       stroke="#ffffff"
+                      stroke-width="0.16"
                     >
                       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                       <g
@@ -177,10 +206,11 @@ function Skills() {
                         stroke-linejoin="round"
                       ></g>
                       <g id="SVGRepo_iconCarrier">
+                        <path d="M7.293 9.006l-.88.88A2.484 2.484 0 0 0 4 8a2.488 2.488 0 0 0-2.413 1.886l-.88-.88L0 9.712l1.147 1.146-.147.146v1H0v.999h1v.053c.051.326.143.643.273.946L0 15.294.707 16l1.1-1.099A2.873 2.873 0 0 0 4 16a2.875 2.875 0 0 0 2.193-1.099L7.293 16 8 15.294l-1.273-1.292A3.92 3.92 0 0 0 7 13.036v-.067h1v-.965H7v-1l-.147-.146L8 9.712l-.707-.706zM4 9.006a1.5 1.5 0 0 1 1.5 1.499h-3A1.498 1.498 0 0 1 4 9.006zm2 3.997A2.217 2.217 0 0 1 4 15a2.22 2.22 0 0 1-2-1.998v-1.499h4v1.499z"></path>
                         <path
                           fill-rule="evenodd"
                           clip-rule="evenodd"
-                          d="M7.04 1.361l.139-.057H21.32l.14.057 1.178 1.179.057.139V16.82l-.057.14-1.179 1.178-.139.057H14V18a1.99 1.99 0 0 0-.548-1.375h7.673V2.875H7.375v7.282a5.73 5.73 0 0 0-1.571-.164V2.679l.057-.14L7.04 1.362zm9.531 9.452l-2.809 2.8a2 2 0 0 0-.348-.467l-.419-.42 2.236-2.235-3.606-3.694.813-.833 4.133 4.133v.716zM9.62 14.82l1.32-1.32L12 14.56l-1.72 1.72.22.22V18H12v1.45h-1.5v.1a5.888 5.888 0 0 1-.41 1.45L12 22.94 10.94 24l-1.65-1.65A4.308 4.308 0 0 1 6 24a4.31 4.31 0 0 1-3.29-1.65L1.06 24 0 22.94 1.91 21a5.889 5.889 0 0 1-.41-1.42v-.08H0V18h1.5v-1.5l.22-.22L0 14.56l1.06-1.06 1.32 1.32a3.73 3.73 0 0 1 7.24 0zm-2.029-.661A2.25 2.25 0 0 0 3.75 15.75h4.5a2.25 2.25 0 0 0-.659-1.591zm.449 7.38A3.33 3.33 0 0 0 9 19.5v-2.25H3v2.25a3.33 3.33 0 0 0 3 3 3.33 3.33 0 0 0 2.04-.96z"
+                          d="M5 2.41L5.78 2l9 6v.83L9 12.683v-1.2l4.6-3.063L6 3.35V7H5V2.41z"
                         ></path>
                       </g>
                     </svg>
