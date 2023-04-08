@@ -8,6 +8,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
+  const linkedIn = "https://www.linkedin.com/in/johnbdot/";
+  const gitHub = "https://github.com/johnbdot";
+  const instagram = "https://www.instagram.com/johnbdot/";
+  const twitter = "https://twitter.com/johnbthe_dev";
+
   return (
     <section id="about" className="relative">
       <div className="w-full m-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
@@ -35,59 +40,59 @@ export default function About() {
                 className="text-center
               "
               >
-                <div className="flex flex-col lg:flex-row justify-center justify-items center rounded bg-gray-200 lg:bg-inherit mt-4 p-4">
+                <div className="flex flex-col lg:flex-row justify-center justify-items center rounded-lg bg-gray-200 lg:bg-inherit mt-4 p-4">
                   <div className="pb-1 lg:pb-0 lg:px-2">
                     <a
-                      href="https://www.linkedin.com/in/johnbdot/"
+                      href={linkedIn}
                       className="lg:hidden block w-auto py-2 rounded-full bg-[#0077b5] text-white text-sm"
                     >
                       LinkedIn <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                     <a
                       className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href="https://www.linkedin.com/in/johnbdot/"
+                      href={linkedIn}
                     >
                       <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                   </div>
                   <div className="pb-1 lg:pb-0 lg:px-2">
                     <a
-                      href="https://github.com/johnbdot"
+                      href={gitHub}
                       className="lg:hidden block block w-auto py-2 rounded-full bg-gray-900 text-white text-sm"
                     >
                       GitHub <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a
                       className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href="https://github.com/johnbdot"
+                      href={gitHub}
                     >
                       <FontAwesomeIcon icon={faGithub} />
                     </a>
                   </div>
                   <div className="pb-1 lg:pb-0 lg:px-2">
                     <a
-                      href="https://www.instagram.com/johnbdot/"
+                      href={instagram}
                       className="lg:hidden block block w-auto py-2 rounded-full bg-[#833AB4] text-white text-sm"
                     >
                       Instagram <FontAwesomeIcon icon={faInstagramSquare} />
                     </a>
                     <a
                       className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href="https://www.instagram.com/johnbdot/"
+                      href={instagram}
                     >
                       <FontAwesomeIcon icon={faInstagramSquare} />
                     </a>
                   </div>
                   <div className="lg:px-2">
                     <a
-                      href="https://twitter.com/johnbthe_dev"
+                      href={twitter}
                       className="lg:hidden block block w-auto py-2 rounded-full bg-[#1DA1F2] text-white text-sm"
                     >
                       Twitter <FontAwesomeIcon icon={faTwitter} />
                     </a>
                     <a
                       className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href="https://twitter.com/johnbthe_dev"
+                      href={twitter}
                     >
                       <FontAwesomeIcon icon={faTwitter} />
                     </a>
