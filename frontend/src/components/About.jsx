@@ -35,7 +35,7 @@ export default function About() {
                 className="text-center
               "
               >
-                <div className="flex flex-col lg:flex-row justify-center justify-items center pt-4">
+                <div className="flex flex-col lg:flex-row justify-center justify-items center rounded bg-gray-200 mt-4 p-4">
                   <div className="pb-1 lg:px-2">
                     <a
                       href="https://www.linkedin.com/in/johnbdot/"
