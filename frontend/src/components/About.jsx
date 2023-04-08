@@ -39,12 +39,12 @@ export default function About() {
                   <div className="pb-1 lg:px-2">
                     <a
                       href="https://www.linkedin.com/in/johnbdot/"
-                      className="lg:hidden block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block w-auto py-2 rounded-full bg-[#0077b5] text-white text-sm"
                     >
                       LinkedIn <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                     <a
-                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
                       href="https://www.linkedin.com/in/johnbdot/"
                     >
                       <FontAwesomeIcon icon={faLinkedin} />
@@ -53,12 +53,12 @@ export default function About() {
                   <div className="pb-1 lg:px-2">
                     <a
                       href="https://github.com/johnbdot"
-                      className="lg:hidden block block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block block w-auto py-2 rounded-full bg-gray-900 text-white text-sm"
                     >
                       GitHub <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a
-                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
                       href="https://github.com/johnbdot"
                     >
                       <FontAwesomeIcon icon={faGithub} />
@@ -67,12 +67,12 @@ export default function About() {
                   <div className="pb-1 lg:px-2">
                     <a
                       href="https://www.instagram.com/johnbdot/"
-                      className="lg:hidden block block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block block w-auto py-2 rounded-full bg-[#833AB4] text-white text-sm"
                     >
                       Instagram <FontAwesomeIcon icon={faInstagramSquare} />
                     </a>
                     <a
-                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
                       href="https://www.instagram.com/johnbdot/"
                     >
                       <FontAwesomeIcon icon={faInstagramSquare} />
@@ -81,12 +81,12 @@ export default function About() {
                   <div className="lg:px-2">
                     <a
                       href="https://twitter.com/johnbthe_dev"
-                      className="lg:hidden block block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block block w-auto py-2 rounded-full bg-[#1DA1F2] text-white text-sm"
                     >
                       Twitter <FontAwesomeIcon icon={faTwitter} />
                     </a>
                     <a
-                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
                       href="https://twitter.com/johnbthe_dev"
                     >
                       <FontAwesomeIcon icon={faTwitter} />
