@@ -22,7 +22,7 @@ function Skills() {
             <li>
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
+                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-deep-indigo text-white">
                     <svg
                       fill="#ffffff"
                       width="32x"
@@ -63,7 +63,7 @@ function Skills() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-indigo text-white">
                     <svg
                       version="1.1"
                       id="Layer_1"
@@ -138,7 +138,7 @@ function Skills() {
             <li className="mt-10 md:mt-0">
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple ">
+                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-deep-indigo ">
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
@@ -189,7 +189,7 @@ function Skills() {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-purple text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-deep-indigo text-white">
                     <svg
                       width="32px"
                       height="32px"
