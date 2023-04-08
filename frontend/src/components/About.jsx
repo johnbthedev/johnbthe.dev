@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faInstagramSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
@@ -12,7 +18,7 @@ export default function About() {
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Who Am I?
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            <p className="mt-4 max-w-3xl text-xl text-gray-500 lg:mx-auto">
               A little bit about me and my background
             </p>
           </div>
@@ -24,6 +30,29 @@ export default function About() {
                 alt="Profile Image"
                 className="h-64 w-full object-cover object-center rounded-lg shadow-lg"
               />
+              <p
+                className="text-center
+              "
+              >
+                <a href="https://github.com/johnbdot">
+                  <FontAwesomeIcon
+                    className="text-5xl lg:text-3xl pt-4 text-deep-indigo"
+                    icon={faGithub}
+                  />
+                </a>
+                <a href="https://www.linkedin.com/in/johnbdot/">
+                  <FontAwesomeIcon
+                    className="text-5xl lg:text-3xl pt-4 pl-4 text-deep-indigo"
+                    icon={faLinkedin}
+                  />
+                </a>
+                <a href="https://www.instagram.com/johnbdot/">
+                  <FontAwesomeIcon
+                    className="text-5xl lg:text-3xl pt-4 pl-4 text-deep-indigo"
+                    icon={faInstagramSquare}
+                  />
+                </a>
+              </p>
             </div>
             <div className="w-full md:w-3/4 px-4">
               <p className="text-lg text-gray-600 mb-4">
