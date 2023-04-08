@@ -35,37 +35,61 @@ export default function About() {
                 className="text-center
               "
               >
-                <div className="flex flex-col justify-center justify-items center pt-4">
-                  <div className="pb-1">
+                <div className="flex flex-col lg:flex-row justify-center justify-items center pt-4">
+                  <div className="pb-1 lg:px-2">
                     <a
                       href="https://www.linkedin.com/in/johnbdot/"
-                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
                     >
                       LinkedIn <FontAwesomeIcon icon={faLinkedin} />
                     </a>
+                    <a
+                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      href="https://www.linkedin.com/in/johnbdot/"
+                    >
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
                   </div>
-                  <div className="pb-1">
+                  <div className="pb-1 lg:px-2">
                     <a
                       href="https://github.com/johnbdot"
-                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
                     >
                       GitHub <FontAwesomeIcon icon={faGithub} />
                     </a>
+                    <a
+                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      href="https://github.com/johnbdot"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
                   </div>
-                  <div className="pb-1">
+                  <div className="pb-1 lg:px-2">
                     <a
                       href="https://www.instagram.com/johnbdot/"
-                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
                     >
                       Instagram <FontAwesomeIcon icon={faInstagramSquare} />
                     </a>
+                    <a
+                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      href="https://www.instagram.com/johnbdot/"
+                    >
+                      <FontAwesomeIcon icon={faInstagramSquare} />
+                    </a>
                   </div>
-                  <div className="">
+                  <div className="lg:px-2">
                     <a
                       href="https://twitter.com/johnbthe_dev"
-                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                      className="lg:hidden block block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
                     >
                       Twitter <FontAwesomeIcon icon={faTwitter} />
+                    </a>
+                    <a
+                      className="hidden lg:inline-block text-3xl text-deep-indigo hover:text-deep-purple"
+                      href="https://twitter.com/johnbthe_dev"
+                    >
+                      <FontAwesomeIcon icon={faTwitter} />
                     </a>
                   </div>
                 </div>
