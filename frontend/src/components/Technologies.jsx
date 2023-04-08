@@ -17,13 +17,13 @@ function Technologies() {
           </p>
         </div>
         <div className="mt-10 flex flex-wrap justify-center">
-          <div className="w-1/5 p-6 flex justify-center">
+          <div className="w-1/2 md:w-1/5 p-6 flex justify-center">
             <a className="touch-action-manipulation" href="https://react.dev/">
               <img className="h-20" src="img/react.svg" alt="React Logo" />
             </a>
           </div>
 
-          <div className="w-1/5 p-6 flex justify-center">
+          <div className="w-1/2 md:w-1/5 p-6 flex justify-center">
             <a
               className="touch-action-manipulation"
               href="https://tailwindcss.com/"
@@ -35,7 +35,7 @@ function Technologies() {
               />
             </a>
           </div>
-          <div className="w-1/5 p-6 flex justify-center">
+          <div className="w-1/2 md:w-1/5 p-6 flex justify-center">
             <a
               className="touch-action-manipulation"
               href="https://getbootstrap.com/"
@@ -47,12 +47,12 @@ function Technologies() {
               />
             </a>
           </div>
-          <div className="w-1/5 p-6 flex justify-center">
+          <div className="w-1/2 md:w-1/5 p-6 flex justify-center">
             <a className="touch-action-manipulation" href="https://strapi.io/">
               <img className="h-20" src="img/strapi.svg" alt="Strapi Logo" />
             </a>
           </div>
-          <div className="w-1/5 p-6 flex justify-center">
+          <div className="w-1/2 md:w-1/5 p-6 flex justify-center">
             <a
               className="touch-action-manipulation"
               href="https://wordpress.org/"
