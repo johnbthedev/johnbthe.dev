@@ -30,7 +30,7 @@ export default function About() {
           </div>
 
           <div className="flex flex-wrap -mx-4 mt-10">
-            <div className="w-full md:w-1/4 mb-6 px-4">
+            <div className="w-full md:w-1/4 mb-4 px-4">
               <img
                 src="img/portrait.jpg"
                 alt="Profile Image"
