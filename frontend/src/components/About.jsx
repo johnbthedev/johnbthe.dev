@@ -40,62 +40,75 @@ export default function About() {
                 className="text-center
               "
               >
-                <div className="flex flex-col lg:flex-row justify-center justify-items center rounded-lg bg-gray-200 lg:bg-inherit mt-4 p-4">
-                  <div className="pb-1 lg:pb-0 lg:px-2">
-                    <a
-                      href={linkedIn}
-                      className="lg:hidden block w-auto py-2 rounded-full bg-[#0077b5] text-white text-sm"
-                    >
-                      LinkedIn <FontAwesomeIcon icon={faLinkedin} />
-                    </a>
-                    <a
-                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href={linkedIn}
-                    >
-                      <FontAwesomeIcon icon={faLinkedin} />
-                    </a>
+                <div className="flex flex-col rounded-lg bg-gray-200 lg:bg-inherit mt-4 p-4 lg:p-0">
+                  <div
+                    id="first-row"
+                    className="flex justify-center lg:justify-start pb-1 lg:pb-0 lg:px-2"
+                  >
+                    <span className="font-bold uppercase text-xs text-gray-500">
+                      connect with me
+                    </span>
                   </div>
-                  <div className="pb-1 lg:pb-0 lg:px-2">
-                    <a
-                      href={gitHub}
-                      className="lg:hidden block block w-auto py-2 rounded-full bg-gray-900 text-white text-sm"
-                    >
-                      GitHub <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                    <a
-                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href={gitHub}
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                  </div>
-                  <div className="pb-1 lg:pb-0 lg:px-2">
-                    <a
-                      href={instagram}
-                      className="lg:hidden block block w-auto py-2 rounded-full bg-[#833AB4] text-white text-sm"
-                    >
-                      Instagram <FontAwesomeIcon icon={faInstagramSquare} />
-                    </a>
-                    <a
-                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href={instagram}
-                    >
-                      <FontAwesomeIcon icon={faInstagramSquare} />
-                    </a>
-                  </div>
-                  <div className="lg:px-2">
-                    <a
-                      href={twitter}
-                      className="lg:hidden block block w-auto py-2 rounded-full bg-[#1DA1F2] text-white text-sm"
-                    >
-                      Twitter <FontAwesomeIcon icon={faTwitter} />
-                    </a>
-                    <a
-                      className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
-                      href={twitter}
-                    >
-                      <FontAwesomeIcon icon={faTwitter} />
-                    </a>
+                  <div
+                    id="second-row"
+                    className="flex flex-col lg:flex-row justify-center lg:justify-start"
+                  >
+                    <div className="pb-1 lg:pb-0 lg:px-2">
+                      <a
+                        href={linkedIn}
+                        className="lg:hidden block w-auto py-2 rounded-full bg-[#0077b5] text-white text-sm"
+                      >
+                        LinkedIn <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                      <a
+                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        href={linkedIn}
+                      >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                    </div>
+                    <div className="pb-1 lg:pb-0 lg:px-2">
+                      <a
+                        href={gitHub}
+                        className="lg:hidden block block w-auto py-2 rounded-full bg-gray-900 text-white text-sm"
+                      >
+                        GitHub <FontAwesomeIcon icon={faGithub} />
+                      </a>
+                      <a
+                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        href={gitHub}
+                      >
+                        <FontAwesomeIcon icon={faGithub} />
+                      </a>
+                    </div>
+                    <div className="pb-1 lg:pb-0 lg:px-2">
+                      <a
+                        href={instagram}
+                        className="lg:hidden block block w-auto py-2 rounded-full bg-[#833AB4] text-white text-sm"
+                      >
+                        Instagram <FontAwesomeIcon icon={faInstagramSquare} />
+                      </a>
+                      <a
+                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        href={instagram}
+                      >
+                        <FontAwesomeIcon icon={faInstagramSquare} />
+                      </a>
+                    </div>
+                    <div className="lg:px-2">
+                      <a
+                        href={twitter}
+                        className="lg:hidden block block w-auto py-2 rounded-full bg-[#1DA1F2] text-white text-sm"
+                      >
+                        Twitter <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                      <a
+                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        href={twitter}
+                      >
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </p>
