@@ -4,6 +4,7 @@ import {
   faLinkedin,
   faGithub,
   faInstagramSquare,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
@@ -34,24 +35,40 @@ export default function About() {
                 className="text-center
               "
               >
-                <a href="https://github.com/johnbdot">
-                  <FontAwesomeIcon
-                    className="text-5xl lg:text-3xl pt-4 text-deep-indigo"
-                    icon={faGithub}
-                  />
-                </a>
-                <a href="https://www.linkedin.com/in/johnbdot/">
-                  <FontAwesomeIcon
-                    className="text-5xl lg:text-3xl pt-4 pl-4 text-deep-indigo"
-                    icon={faLinkedin}
-                  />
-                </a>
-                <a href="https://www.instagram.com/johnbdot/">
-                  <FontAwesomeIcon
-                    className="text-5xl lg:text-3xl pt-4 pl-4 text-deep-indigo"
-                    icon={faInstagramSquare}
-                  />
-                </a>
+                <div className="flex flex-col justify-center justify-items center pt-4">
+                  <div className="pb-1">
+                    <a
+                      href="https://www.linkedin.com/in/johnbdot/"
+                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                    >
+                      LinkedIn <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                  </div>
+                  <div className="pb-1">
+                    <a
+                      href="https://github.com/johnbdot"
+                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                    >
+                      GitHub <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </div>
+                  <div className="pb-1">
+                    <a
+                      href="https://www.instagram.com/johnbdot/"
+                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                    >
+                      Instagram <FontAwesomeIcon icon={faInstagramSquare} />
+                    </a>
+                  </div>
+                  <div className="">
+                    <a
+                      href="https://twitter.com/johnbthe_dev"
+                      className="block w-auto py-2 rounded-full bg-deep-indigo hover:bg-deep-purple text-white text-sm"
+                    >
+                      Twitter <FontAwesomeIcon icon={faTwitter} />
+                    </a>
+                  </div>
+                </div>
               </p>
             </div>
             <div className="w-full md:w-3/4 px-4">
