@@ -35,8 +35,8 @@ export default function About() {
                 className="text-center
               "
               >
-                <div className="flex flex-col lg:flex-row justify-center justify-items center rounded bg-gray-200 mt-4 p-4">
-                  <div className="pb-1 lg:px-2">
+                <div className="flex flex-col lg:flex-row justify-center justify-items center rounded bg-gray-200 lg:bg-inherit mt-4 p-4">
+                  <div className="pb-1 lg:pb-0 lg:px-2">
                     <a
                       href="https://www.linkedin.com/in/johnbdot/"
                       className="lg:hidden block w-auto py-2 rounded-full bg-[#0077b5] text-white text-sm"
@@ -50,7 +50,7 @@ export default function About() {
                       <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                   </div>
-                  <div className="pb-1 lg:px-2">
+                  <div className="pb-1 lg:pb-0 lg:px-2">
                     <a
                       href="https://github.com/johnbdot"
                       className="lg:hidden block block w-auto py-2 rounded-full bg-gray-900 text-white text-sm"
@@ -64,7 +64,7 @@ export default function About() {
                       <FontAwesomeIcon icon={faGithub} />
                     </a>
                   </div>
-                  <div className="pb-1 lg:px-2">
+                  <div className="pb-1 lg:pb-0 lg:px-2">
                     <a
                       href="https://www.instagram.com/johnbdot/"
                       className="lg:hidden block block w-auto py-2 rounded-full bg-[#833AB4] text-white text-sm"
