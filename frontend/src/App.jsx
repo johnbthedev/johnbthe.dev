@@ -1,4 +1,3 @@
-import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
@@ -8,14 +7,14 @@ import Contact from "./components/Contact";
 import Technologies from "./components/Technologies";
 import Skills from "./components/Skills";
 
-const client = new ApolloClient({
-  uri: "http://localhost:1337/graphql",
-  cache: new InMemoryCache(),
-});
+// const client = new ApolloClient({
+//   uri: "http://localhost:1337/graphql",
+//   cache: new InMemoryCache(),
+// });
 
 export default function App() {
   return (
-    <ApolloProvider client={client}>
+    <>
       <Navbar />
       <Hero />
       <About />
@@ -24,6 +23,6 @@ export default function App() {
       <Technologies />
       <Contact />
       <Footer />
-    </ApolloProvider>
+    </>
   );
 }
