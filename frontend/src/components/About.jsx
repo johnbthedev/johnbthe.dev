@@ -43,9 +43,9 @@ export default function About() {
                 <div className="flex flex-col rounded-lg bg-gray-200 lg:bg-inherit mt-4 p-4 lg:p-0">
                   <div
                     id="first-row"
-                    className="flex justify-center lg:justify-start pb-1 lg:pb-0 lg:px-2"
+                    className="flex justify-center lg:justify-start pb-1 lg:pb-0"
                   >
-                    <span className="font-bold uppercase text-xs text-gray-500">
+                    <span className="font-bold uppercase text-xs text-gray-600">
                       connect with me
                     </span>
                   </div>
@@ -53,7 +53,7 @@ export default function About() {
                     id="second-row"
                     className="flex flex-col lg:flex-row justify-center lg:justify-start"
                   >
-                    <div className="pb-1 lg:pb-0 lg:px-2">
+                    <div className="pb-1 lg:pb-0 lg:pr-2">
                       <a
                         href={linkedIn}
                         className="lg:hidden block w-auto py-2 rounded-full bg-[#0077b5] text-white text-sm"
