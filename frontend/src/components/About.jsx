@@ -61,7 +61,7 @@ export default function About() {
                         LinkedIn <FontAwesomeIcon icon={faLinkedin} />
                       </a>
                       <a
-                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        className="hidden lg:inline-block text-3xl text-[#0077b5]"
                         href={linkedIn}
                       >
                         <FontAwesomeIcon icon={faLinkedin} />
@@ -75,7 +75,7 @@ export default function About() {
                         GitHub <FontAwesomeIcon icon={faGithub} />
                       </a>
                       <a
-                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        className="hidden lg:inline-block text-3xl text-gray-900"
                         href={gitHub}
                       >
                         <FontAwesomeIcon icon={faGithub} />
@@ -89,7 +89,7 @@ export default function About() {
                         Instagram <FontAwesomeIcon icon={faInstagramSquare} />
                       </a>
                       <a
-                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        className="hidden lg:inline-block text-3xl text-[#833AB4]"
                         href={instagram}
                       >
                         <FontAwesomeIcon icon={faInstagramSquare} />
@@ -103,7 +103,7 @@ export default function About() {
                         Twitter <FontAwesomeIcon icon={faTwitter} />
                       </a>
                       <a
-                        className="hidden lg:inline-block text-3xl text-gray-900 hover:text-deep-purple"
+                        className="hidden lg:inline-block text-3xl text-[#1DA1F2]"
                         href={twitter}
                       >
                         <FontAwesomeIcon icon={faTwitter} />
