@@ -8,8 +8,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
-  const linkedIn = "https://www.linkedin.com/in/johnbdot/";
-  const gitHub = "https://github.com/johnbdot";
+  const linkedIn = "https://www.linkedin.com/in/johnbthedev/";
+  const gitHub = "https://github.com/johnbthedev";
   const instagram = "https://www.instagram.com/johnbdot/";
   const twitter = "https://twitter.com/johnbthe_dev";
 
@@ -40,10 +40,10 @@ export default function About() {
                 className="text-center
               "
               >
-                <div className="flex flex-col rounded-lg bg-gray-200 lg:bg-inherit mt-4 p-4 lg:p-0">
+                <div className="flex flex-col rounded-lg bg-gray-200 mt-4 p-4 lg:p-2">
                   <div
                     id="first-row"
-                    className="flex justify-center lg:justify-start pb-1 lg:pb-0"
+                    className="flex justify-center pb-1 lg:pb-0"
                   >
                     <span className="font-bold uppercase text-xs text-gray-600">
                       connect with me
@@ -51,7 +51,7 @@ export default function About() {
                   </div>
                   <div
                     id="second-row"
-                    className="flex flex-col lg:flex-row justify-center lg:justify-start"
+                    className="flex flex-col lg:flex-row justify-center"
                   >
                     <div className="pb-1 lg:pb-0 lg:pr-2">
                       <a
