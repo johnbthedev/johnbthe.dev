@@ -46,11 +46,11 @@ export default function Portfolio() {
                 </p>
 
                 <a
-                  href="https://therapywithesther.com"
+                  href="https://esther-seven.vercel.app/"
                   target="_blank"
                   className="text-blue-500 hover:text-blue-700"
                 >
-                  View Project{" "}
+                  Preview{" "}
                   <svg
                     class="w-5 h-5 inline-block"
                     fill="currentColor"
@@ -93,7 +93,7 @@ export default function Portfolio() {
                   target="_blank"
                   className="text-blue-500 hover:text-blue-700"
                 >
-                  View Project{" "}
+                  Preview{" "}
                   <svg
                     class="w-5 h-5 inline-block"
                     fill="currentColor"
