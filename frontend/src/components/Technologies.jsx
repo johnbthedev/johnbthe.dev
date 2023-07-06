@@ -12,8 +12,7 @@ function Technologies() {
             Mastering the Latest Web Development Technologies
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            These are just some of the web development technologies I utilize to
-            create exceptional websites
+            Some of the technologies I utilize to create exceptional websites
           </p>
         </div>
         <div className="mt-10 flex flex-wrap justify-center">

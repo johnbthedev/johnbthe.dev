@@ -127,24 +127,11 @@ export default function About() {
                 skills using various resources, including FreeCodeCamp, YouTube,
                 and The Odin Project. Thanks to these resources, I have been
                 able to learn a lot and I am always looking for ways to expand
-                my knowledge and explore new technologies. Ultimately, my goal
-                is to become a talented and accomplished full-stack web
-                developer.
+                my knowledge and explore new technologies.
               </p>
-
               <p className="text-lg text-gray-600 mb-4">
-                When I'm not coding, you'll likely find me indulging in my other
-                hobbies. I'm an avid PC gamer, a fan of binge-worthy TV shows
-                and sports, and I love to travel whenever possible. I also have
-                two furry feline companions, Kevin and Calvin, who keep me
-                company during long coding sessions.
-              </p>
-
-              <p className="text-lg text-gray-600 mb-4">
-                Thank you for taking the time to learn a bit about me. If you
-                have any questions or inquiries, please don't hesitate to get in
-                touch. I'm always open to connecting and would love to hear from
-                you!
+                Ultimately, my goal is to become a talented and accomplished
+                full-stack web developer.
               </p>
               <p className="mb-4">
                 <a
